@@ -23,17 +23,13 @@ jobs:
         with:
           r-version: '4.3.1'
 
-      # - name: Install R package dependencies
-      #   uses: r-lib/actions/setup-r-dependencies@v2
-      #   with:
-      #     cache-version: 2
-      #     packages: |
-      #       any::DT
-      #       any::ggplot2
-      #       any::remotes
-      #       any::curl
-      #       any::jsonlite
-      #       any::pkgdown
+      - name: Install R package dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 2
+          packages: |
+            any::knitr
+            any::rmarkdown
 # 
 #       - name: Install package from GH
 #         run: |
