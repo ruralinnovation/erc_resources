@@ -1,0 +1,34 @@
+---
+title: "Accessing Data Axle"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+Data Axle provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.
+
+This is a subscription-based resource that you may be able to access through your local library.  To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library's website.  
+
+Here are some general tips that may help you find Data Axle on your local library's website:
+
+First, go to your library's website.  
+
+<div style="display:flex; flex-wrap: wrap;">
+  <img style="width: 80%;" src="images/homepage.png">
+  
+Navigate to tabs like “Research”, “Digital Resources”, or “Databases.”  If the digital resources are sorted by topic, select the topic called something like “Business.”
+  
+<div style="display:flex; flex-wrap: wrap;">
+  <img style="width: 80%;" src="images/search_menu.png">
+  
+Once you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.)  Then follow your library's instructions to open Reference Solutions.  You will likely need to enter your library card number.  
+
+<div style="display:flex; flex-wrap: wrap;">
+  <img style="width: 80%;" src="images/research_page.png">
+  
+If you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.
+
+<div style="display:flex; flex-wrap: wrap;">
+  <img style="width: 80%;" src="images/nj_page.png">

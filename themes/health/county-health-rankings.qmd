@@ -1,0 +1,16 @@
+---
+title: "County Health Rankings"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+[Access the County Health Rankings maps and data](https://www.countyhealthrankings.org/health-data)
+
+County Health Rankings provide a snapshot of the overall health and well-being of communities across different counties. Published annually, these rankings assess a wide range of factors including health outcomes (such as premature death and quality of life), health behaviors (like smoking and physical activity), clinical care, social and economic conditions (such as education and employment), and the physical environment. The rankings help identify disparities between counties and highlight areas for improvement. By offering this data, they aim to inform local health initiatives, guide policy decisions, and promote efforts to enhance public health across regions.
+
+* **Years**: Editions are available each year 2011-2024
+* **Geographies**: County
+* **Territories**: This source only includes the 50 states and D.C.

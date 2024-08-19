@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Additional resources for fellows"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: intro.qmd
+        text: Intro
+      - section: Health
+        contents:
+          - href: themes/health/county-health-rankings.qmd
+            text: County Health Rankings
+          - href: themes/health/hrsa_map.qmd
+            text: HSRA Map
+      - section: Community Advocacy
+        contents:
+          - href: themes/access/rural-capacity-index.qmd
+            text: Rural Capacity Index
+      - section: Resource Access
+        contents:
+          - href: themes/resources/food-atlas.qmd
+            text: Food Access Research Atlas
+      - section: Business
+        contents:
+          - href: themes/business/data-axle.qmd
+            text: Data Axle
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
