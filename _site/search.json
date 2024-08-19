@@ -1,22 +1,36 @@
 [
   {
-    "objectID": "pipeline.html",
-    "href": "pipeline.html",
-    "title": "Result of pipelines",
+    "objectID": "themes/business/data-axle.html",
+    "href": "themes/business/data-axle.html",
+    "title": "Accessing Data Axle",
     "section": "",
-    "text": "first content TBD",
+    "text": "Data Axle provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
     "crumbs": [
-      "Home",
-      "Health",
-      "Pipeline"
+      "Business",
+      "Data Axle"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "themes/health/hrsa_map.html",
+    "href": "themes/health/hrsa_map.html",
+    "title": "HRSA Map",
     "section": "",
-    "text": "About Content TBD"
+    "text": "Access the Health Resources & Services Administration map tool\nThe Health Resources & Services Administration (HRSA) Map Tool is an interactive platform designed to visualize and analyze health resource distribution across the United States. It provides data on healthcare facilities, such as health centers, hospitals, and specialized services, along with information on health workforce availability and health outcomes. The tool aims to support decision-making by highlighting areas with unmet health needs and guiding the allocation of resources to improve healthcare access and services in underserved communities.\n\nYears: Updated 2024\nTerritories: Several layers are available for Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, and American Samoa",
+    "crumbs": [
+      "Health",
+      "HSRA Map"
+    ]
+  },
+  {
+    "objectID": "themes/access/rural-capacity-index.html",
+    "href": "themes/access/rural-capacity-index.html",
+    "title": "Rural Capacity Index",
+    "section": "",
+    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYear: Updated 2024\nGeographies: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”\nTerritories: This source only includes the 50 states and D.C.",
+    "crumbs": [
+      "Community Advocacy",
+      "Rural Capacity Index"
+    ]
   },
   {
     "objectID": "index.html",
@@ -36,6 +50,13 @@
     ]
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About Content TBD"
+  },
+  {
     "objectID": "themes/health/county-health-rankings.html",
     "href": "themes/health/county-health-rankings.html",
     "title": "County Health Rankings",
@@ -44,39 +65,6 @@
     "crumbs": [
       "Health",
       "County Health Rankings"
-    ]
-  },
-  {
-    "objectID": "themes/business/data-axle.html",
-    "href": "themes/business/data-axle.html",
-    "title": "Accessing Data Axle",
-    "section": "",
-    "text": "Data Axle provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
-    "crumbs": [
-      "Business",
-      "Data Axle"
-    ]
-  },
-  {
-    "objectID": "themes/access/rural-capacity-index.html",
-    "href": "themes/access/rural-capacity-index.html",
-    "title": "Rural Capacity Index",
-    "section": "",
-    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYear: Updated 2024\nGeographies: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”\nTerritories: This source only includes the 50 states and D.C.",
-    "crumbs": [
-      "Community Advocacy",
-      "Rural Capacity Index"
-    ]
-  },
-  {
-    "objectID": "themes/health/hrsa_map.html",
-    "href": "themes/health/hrsa_map.html",
-    "title": "HRSA Map",
-    "section": "",
-    "text": "Access the Health Resources & Services Administration map tool\nThe Health Resources & Services Administration (HRSA) Map Tool is an interactive platform designed to visualize and analyze health resource distribution across the United States. It provides data on healthcare facilities, such as health centers, hospitals, and specialized services, along with information on health workforce availability and health outcomes. The tool aims to support decision-making by highlighting areas with unmet health needs and guiding the allocation of resources to improve healthcare access and services in underserved communities.\n\nYears: Updated 2024\nTerritories: Several layers are available for Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, and American Samoa",
-    "crumbs": [
-      "Health",
-      "HSRA Map"
     ]
   },
   {
