@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: ""
 ---
 
 In the following tabs, you will find a curated list of research and data that may assist your work.  If you have any questions or would like additional help integrating any of this data into your workflow, please reach out at ______.
 
-You can also access data on a wide variety of economic indicators using [CORI's Economic Development Tool](https://erc-tool.ruralinnovation.us/).   
+You can also access data on a wide variety of economic indicators using [CORI's Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"}.

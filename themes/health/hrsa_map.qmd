@@ -7,6 +7,7 @@ format:
 engine: knitr
 reference-location: margin
 ---
+
 [Access the Health Resources & Services Administration map tool](https://data.hrsa.gov/maps/map-tool/)
 
 The Health Resources & Services Administration (HRSA) Map Tool is an interactive platform designed to visualize and analyze health resource distribution across the United States. It provides data on healthcare facilities, such as health centers, hospitals, and specialized services, along with information on health workforce availability and health outcomes. The tool aims to support decision-making by highlighting areas with unmet health needs and guiding the allocation of resources to improve healthcare access and services in underserved communities.
