@@ -7,7 +7,7 @@ website:
   navbar:
     logo-href: https://ruralinnovation.us/our-work/research_mapping/
     left:
-      - href: intro.qmd
+      - href: index.qmd
         text: "ERC Fellows: Additional resources"
 #    right:
 #      - href: about.qmd
@@ -16,7 +16,7 @@ website:
     style: "docked"
     search: true
     contents:
-      - href: intro.qmd
+      - href: index.qmd
         text: Intro
       - section: Health
         contents:
