@@ -7,9 +7,10 @@ format:
 engine: knitr
 reference-location: margin
 ---
-Data Axle provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.
 
-This is a subscription-based resource that you may be able to access through your local library.  To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library's website.  
+[Data Axle](https://www.data-axle.com/what-we-do/reference-solutions/){.external target="_blank"} provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.
+
+This is a subscription-based resource that you may be able to access through your local [library](https://referenceusa.com/Static/LibraryLocator){.external target="_blank"}.  To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library's website.
 
 Here are some general tips that may help you find Data Axle on your local library's website:
 

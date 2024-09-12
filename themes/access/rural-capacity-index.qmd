@@ -7,7 +7,8 @@ format:
 engine: knitr
 reference-location: margin
 ---
-#### [Access Headwaters Economics' Rural Capacity Index map and data](https://headwaterseconomics.org/equity/rural-capacity-map/)
+
+[Access Headwaters Economics' Rural Capacity Index map and data](https://headwaterseconomics.org/equity/rural-capacity-map/){.external target="_blank"}
 
 The Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development.  Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.  
 

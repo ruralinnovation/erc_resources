@@ -2,13 +2,21 @@ project:
   type: website
 
 website:
-  title: "Additional resources for fellows"
+  title: "ERC Fellows: Additional resources"
   favicon: assets/images/Logo-Mark_Black.png
+  navbar:
+    logo-href: https://ruralinnovation.us/our-work/research_mapping/
+    left:
+      - href: index.qmd
+        text: "ERC Fellows: Additional resources"
+#    right:
+#      - href: about.qmd
+#        text: About
   sidebar:
     style: "docked"
     search: true
     contents:
-      - href: intro.qmd
+      - href: index.qmd
         text: Intro
       - section: Health
         contents:
