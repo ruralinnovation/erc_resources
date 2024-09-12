@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/index.html</loc>
-    <lastmod>2024-08-19T19:00:46.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/business/data-axle.html</loc>
-    <lastmod>2024-08-19T19:00:46.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/hrsa_map.html</loc>
-    <lastmod>2024-08-19T19:00:46.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/intro.html</loc>
-    <lastmod>2024-08-19T19:00:46.508Z</lastmod>
-  </url>
-  <url>
     <loc>https://ruralinnovation.github.io/erc_resources/about.html</loc>
-    <lastmod>2024-08-19T19:00:46.452Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/resources/food-atlas.html</loc>
-    <lastmod>2024-08-19T19:00:46.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/county-health-rankings.html</loc>
-    <lastmod>2024-08-19T19:00:46.532Z</lastmod>
+    <lastmod>2024-09-12T17:37:58.241Z</lastmod>
   </url>
   <url>
     <loc>https://ruralinnovation.github.io/erc_resources/themes/access/rural-capacity-index.html</loc>
-    <lastmod>2024-08-19T19:00:46.508Z</lastmod>
+    <lastmod>2024-09-12T17:37:58.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/business/data-axle.html</loc>
+    <lastmod>2024-09-12T17:37:58.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/hrsa_map.html</loc>
+    <lastmod>2024-09-12T17:37:58.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/county-health-rankings.html</loc>
+    <lastmod>2024-09-12T17:37:58.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/resources/food-atlas.html</loc>
+    <lastmod>2024-09-12T17:37:58.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/index.html</loc>
+    <lastmod>2024-09-12T17:37:58.301Z</lastmod>
   </url>
 </urlset>
