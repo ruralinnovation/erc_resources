@@ -1,0 +1,19 @@
+---
+title: "Natural Amenities Scale"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+
+[Access the USDA's Natural Amenities Scale dataset](https://www.ers.usda.gov/data-products/natural-amenities-scale/#:~:text=The%20natural%20amenities%20scale%20is,environmental%20qualities%20most%20people%20prefer){.external target="_blank"}
+
+
+
+* **Year**: 
+* **Geographies**: 
+* **Territories**: 
+
+

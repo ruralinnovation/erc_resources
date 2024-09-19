@@ -1,0 +1,19 @@
+---
+title: "Outdoor Recreation Economy"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+
+[Access Heawaters Economics's Outdoor Recreation Economy by State report](https://headwaterseconomics.org/economic-development/trends-performance/outdoor-recreation-economy-by-state/){.external target="_blank"}
+
+
+
+* **Year**: 
+* **Geographies**: 
+* **Territories**: 
+
+

@@ -18,20 +18,32 @@ website:
     contents:
       - href: index.qmd
         text: Intro
+      - section: Community Advocacy
+        contents:
+          - href: themes/advocacy/rural-capacity-index.qmd
+            text: Rural Capacity Index
       - section: Health
         contents:
           - href: themes/health/county-health-rankings.qmd
             text: County Health Rankings
+          - href: themes/health/food-atlas.qmd
+            text: Food Access Research Atlas
           - href: themes/health/hrsa_map.qmd
             text: HSRA Map
-      - section: Community Advocacy
+      # - section: Resource Access
+      #   contents:
+      #     - href: themes/resources/food-atlas.qmd
+      #       text: Food Access Research Atlas
+      - section: Environment
         contents:
-          - href: themes/access/rural-capacity-index.qmd
-            text: Rural Capacity Index
-      - section: Resource Access
-        contents:
-          - href: themes/resources/food-atlas.qmd
-            text: Food Access Research Atlas
+          - href: themes/environment/natural-amenities.qmd
+            text: Natural Amenities Scale
+          - href: themes/environment/outdoor-rec.qmd
+            text: Outdoor Recreation
+          - href: themes/environment/air.qmd
+            text: Air Quality
+          - href: themes/environment/water.qmd
+            text: Water Quality
       - section: Business
         contents:
           - href: themes/business/data-axle.qmd
@@ -48,7 +60,7 @@ format:
     linkcolor: "#00835D"
     mainfont: "Bitter"
     grid:
-      sidebar-width: 250px
+      sidebar-width: 300px
       body-width: 1100px
       margin-width: 250px
     toc: true
