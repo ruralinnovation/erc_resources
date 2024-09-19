@@ -8,7 +8,7 @@ website:
     logo-href: https://ruralinnovation.us/our-work/research_mapping/
     left:
       - href: index.qmd
-        text: "ERC Fellows: Additional resources"
+        text: "Additional Resources for ERC Fellows"
 #    right:
 #      - href: about.qmd
 #        text: About
