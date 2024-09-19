@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "ERC Fellows: Additional resources"
+  title: "Additional Resources for ERC Fellows"
   favicon: assets/images/Logo-Mark_Black.png
   navbar:
     logo-href: https://ruralinnovation.us/our-work/research_mapping/
@@ -15,6 +15,7 @@ website:
   sidebar:
     style: "docked"
     search: true
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: Intro
@@ -27,7 +28,7 @@ website:
           - href: themes/health/county-health-rankings.qmd
             text: County Health Rankings
           - href: themes/health/food-atlas.qmd
-            text: Food Access Research Atlas
+            text: Food Access
           - href: themes/health/hrsa_map.qmd
             text: HSRA Map
       # - section: Resource Access
@@ -37,7 +38,7 @@ website:
       - section: Environment
         contents:
           - href: themes/environment/natural-amenities.qmd
-            text: Natural Amenities Scale
+            text: Natural Amenities
           - href: themes/environment/outdoor-rec.qmd
             text: Outdoor Recreation
           - href: themes/environment/air.qmd

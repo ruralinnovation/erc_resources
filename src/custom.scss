@@ -2,10 +2,10 @@
 $h2-font-size:          1.6rem !default;
 $headings-font-weight:  500 !default;
 
-/*-- scss:rules --*/
-h1, h2, h3, h4, h5, h6 {
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
-}
+///*-- scss:rules --*/
+//h1, h2, h3, h4, h5, h6 {
+//  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+//}
 
 /*-- scss:defaults --*/
 
@@ -101,17 +101,27 @@ header {
     margin-bottom: 0;
   }
 
+    .breadcrumb > li + li::before {
+      color: #015c41 !important;
+      margin-top: .2rem;
+    }
+
   .quarto-title-breadcrumbs .breadcrumb {
     //margin-bottom: .5em;
     //font-size: .9rem;
-    background-color: rgb(0, 131, 93);
+    //background-color: rgb(0, 131, 93);
+    background-color: #A3E1B5;
 
     li a {
-      color: #FFFFFF;
+      color: #015c41;
+      font-size: .95rem;
     }
 
     li:last-of-type a {
-      color: #6cFF7d;
+      //color: #6cFF7d;
+      color: #16343E;
+      font-weight: bold;
+      font-size: 1rem;
     }
   }
 }
@@ -140,6 +150,11 @@ div#quarto-content {
     .sidebar-menu-container {
       padding-top: 1em;
     }
+    
+    ul > li {
+    margin-left: 8px;
+    }
+    
   }
 
   // Override the about page styling
