@@ -7,27 +7,39 @@
     "text": "About Content TBD"
   },
   {
-    "objectID": "themes/access/rural-capacity-index.html",
-    "href": "themes/access/rural-capacity-index.html",
+    "objectID": "themes/environment/water.html",
+    "href": "themes/environment/water.html",
+    "title": "Water Quality",
+    "section": "",
+    "text": "Access the EPA’s Water Quality datasets\n\nYear:\nGeographies:\nTerritories:",
+    "crumbs": [
+      "ERC Fellows: Additional resources",
+      "Environment",
+      "Water Quality"
+    ]
+  },
+  {
+    "objectID": "themes/environment/natural-amenities.html",
+    "href": "themes/environment/natural-amenities.html",
+    "title": "Natural Amenities Scale",
+    "section": "",
+    "text": "Access the USDA’s Natural Amenities Scale dataset\n\nYear:\nGeographies:\nTerritories:",
+    "crumbs": [
+      "ERC Fellows: Additional resources",
+      "Environment",
+      "Natural Amenities Scale"
+    ]
+  },
+  {
+    "objectID": "themes/advocacy/rural-capacity-index.html",
+    "href": "themes/advocacy/rural-capacity-index.html",
     "title": "Rural Capacity Index",
     "section": "",
-    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYear: Updated 2024\nGeographies: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”\nTerritories: This source only includes the 50 states and D.C.",
+    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYear: Updated 2024\nGeographies: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories: This source only includes the 50 states and D.C.",
     "crumbs": [
       "ERC Fellows: Additional resources",
       "Community Advocacy",
       "Rural Capacity Index"
-    ]
-  },
-  {
-    "objectID": "themes/business/data-axle.html",
-    "href": "themes/business/data-axle.html",
-    "title": "Accessing Data Axle",
-    "section": "",
-    "text": "Data Axle provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
-    "crumbs": [
-      "ERC Fellows: Additional resources",
-      "Business",
-      "Data Axle"
     ]
   },
   {
@@ -43,6 +55,29 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ERC Fellows: Additional resources",
+    "section": "",
+    "text": "In the following tabs, you will find a curated list of research and data that may assist your work. If you have any questions or would like additional help integrating any of this data into your workflow, please reach out at ______.\nYou can also access data on a wide variety of economic indicators using CORI’s Economic Development Tool.",
+    "crumbs": [
+      "ERC Fellows: Additional resources",
+      "Intro"
+    ]
+  },
+  {
+    "objectID": "themes/health/food-atlas.html",
+    "href": "themes/health/food-atlas.html",
+    "title": "Food Access Research Atlas",
+    "section": "",
+    "text": "Access the USDA’s Food Access Research Atlas map\nThe USDA’s Food Access Research Atlas is a comprehensive tool designed to help understand and analyze food access in the United States. It provides data on various aspects of food accessibility, including the availability of grocery stores, supermarkets, and other food retailers, as well as factors like income and transportation. By mapping these elements, the Atlas helps identify areas with limited access to healthy food options, often referred to as “food deserts.” This information supports policymakers, researchers, and community organizations in developing strategies to improve food access and address nutritional disparities.\n\nYear: 2019 (Updated 2023)\nGeographies: Census Tract\nTerritories: This source only includes the 50 states and D.C.",
+    "crumbs": [
+      "ERC Fellows: Additional resources",
+      "Health",
+      "Food Access Research Atlas"
+    ]
+  },
+  {
     "objectID": "themes/health/county-health-rankings.html",
     "href": "themes/health/county-health-rankings.html",
     "title": "County Health Rankings",
@@ -55,26 +90,39 @@
     ]
   },
   {
-    "objectID": "themes/resources/food-atlas.html",
-    "href": "themes/resources/food-atlas.html",
-    "title": "Food Access Research Atlas",
+    "objectID": "themes/environment/outdoor-rec.html",
+    "href": "themes/environment/outdoor-rec.html",
+    "title": "Outdoor Recreation Economy",
     "section": "",
-    "text": "Access the USDA’s Food Access Research Atlas map\nThe USDA’s Food Access Research Atlas is a comprehensive tool designed to help understand and analyze food access in the United States. It provides data on various aspects of food accessibility, including the availability of grocery stores, supermarkets, and other food retailers, as well as factors like income and transportation. By mapping these elements, the Atlas helps identify areas with limited access to healthy food options, often referred to as “food deserts.” This information supports policymakers, researchers, and community organizations in developing strategies to improve food access and address nutritional disparities.\n\nYear: 2019 (Updated 2023)\nGeographies: Census Tract\nTerritories: This source only includes the 50 states and D.C.",
+    "text": "Access Heawaters Economics’s Outdoor Recreation Economy by State report\n\nYear:\nGeographies:\nTerritories:",
     "crumbs": [
       "ERC Fellows: Additional resources",
-      "Resource Access",
-      "Food Access Research Atlas"
+      "Environment",
+      "Outdoor Recreation"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ERC Fellows: Additional resources",
+    "objectID": "themes/environment/air.html",
+    "href": "themes/environment/air.html",
+    "title": "Air Quality",
     "section": "",
-    "text": "In the following tabs, you will find a curated list of research and data that may assist your work. If you have any questions or would like additional help integrating any of this data into your workflow, please reach out at ______.\nYou can also access data on a wide variety of economic indicators using CORI’s Economic Development Tool.",
+    "text": "Access the EPA’s Air Quality datasets\n\nYear:\nGeographies:\nTerritories:",
     "crumbs": [
       "ERC Fellows: Additional resources",
-      "Intro"
+      "Environment",
+      "Air Quality"
+    ]
+  },
+  {
+    "objectID": "themes/business/data-axle.html",
+    "href": "themes/business/data-axle.html",
+    "title": "Accessing Data Axle",
+    "section": "",
+    "text": "Data Axle provides comprehensive and accurate business data, which helps organizations enhance their marketing strategies and target the right audience more effectively. Its robust analytics tools enable users to gain valuable insights into customer behaviors and market trends, leading to more informed decision-making.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
+    "crumbs": [
+      "ERC Fellows: Additional resources",
+      "Business",
+      "Data Axle"
     ]
   }
 ]
