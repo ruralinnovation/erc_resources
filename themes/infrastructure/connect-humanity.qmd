@@ -1,0 +1,18 @@
+---
+title: "Broadband Climate Risk Mitigation Tool"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+[Access CORI's Broadband Climate Risk Mitigation Tool and data](https://broadband-risk.ruralinnovation.us/){.external target="_blank"}
+
+CORI's Broadband Climate Risk Mitigation Tool helps users evaluate the level of risk that weather events pose to future broadband infrastructure and identify the type of weather events that are the greatest threats.  The tool does this by analyzing historical building loss due to extreme weather.  
+
+* **Years**: Various data years (Updated 2023)
+* **Geographic levels**: Tract and County
+* **Territories available**: Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, Guam, and American Samoa
+
+

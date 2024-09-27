@@ -1,7 +1,29 @@
 ---
 title: ""
 ---
+The data team at CORI created the [Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"} to aid the Fellows in their work by providing analysis and data on a wide variety of economic indicators.  
+In order to assist Fellows who require data that is not supported by the tool, we have assembled a vetted catalog of research and data.  This catalogs includes resources on the following themes...
 
-In the following tabs, you will find a curated list of research and data that may assist your work.  If you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Brittany (brittany.kainen@ruralinnovation.us) on the Rural Innovation data team.  
+**Community Advocacy**  
+This section contains a resource to help users asses a community's leadership and ability to access funding for infrastructure projects.
 
-You can also access data on a wide variety of economic indicators using [CORI's Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"}.
+**Health**  
+This section contains a variety of resources to help users survey the landscape of this topic.  There are resources on health outcomes, health care access, and food desserts. 
+
+**Environment**  
+This section contains resources on the natural environment.  There is both information about natural amenities from a recreation standpoint and from a health standpoint.  
+
+**Infrastructure**  
+This section contains two interactive tools created by CORI related to broadband.  One of these tools can also help users understand potential environmental hazards in their area.  This section also contains a resource on child care access.
+
+**Local Economy**  
+This section contains a resource that provides an overview of the local economy.  Though much of this information is also available in CORI's Economic Development Tool, this resource may supplement the economic data available in CORI's tool.  
+
+**Business**  
+This section helps users access a vetted list of active businesses (with details about the business) in a given area.  This section does not provide direct access to the resource, but it does guide users through finding and accessing the resource.  
+
+
+
+### Ad hoc data support
+If you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Brittany (brittany.kainen@ruralinnovation.us) on the Rural Innovation data team.  
+You are also welcome to attend our open office hours, which are held on the first and third Thursdays of every month.  

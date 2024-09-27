@@ -7,13 +7,12 @@ format:
 engine: knitr
 reference-location: margin
 ---
+[Access the EPA's Water Quality data portal](https://www.epa.gov/waterdata/water-quality-data-download#portal){.external target="_blank"}
 
-[Access the EPA's Water Quality datasets](https://www.epa.gov/waterdata/water-quality-data-download#portal){.external target="_blank"}
+The EPA's Water Quality Portal is a comprehensive online resource that provides access to a vast array of water quality data from various federal, state, and tribal agencies. It enables users to explore and analyze information related to water monitoring, assessment, and standards. 
 
-
-
-* **Year**: 
-* **Geographies**: 
-* **Territories**: 
+* **Years**: Various data years
+* **Geographic level**: County
+* **Territories available**: Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, Guam, and American Samoa
 
 

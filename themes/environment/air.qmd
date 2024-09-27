@@ -7,13 +7,12 @@ format:
 engine: knitr
 reference-location: margin
 ---
+[Access the EPA's Air Quality Statistics Report datasets](https://www.epa.gov/outdoor-air-quality-data/air-quality-statistics-report){.external target="_blank"}
 
-[Access the EPA's Air Quality datasets](https://www.epa.gov/air-trends/air-quality-cities-and-counties){.external target="_blank"}
+The EPA's Air Quality Statistics Report offers detailed information on air quality trends and pollutants in the United States, summarizing data collected from monitoring stations nationwide. It highlights key indicators such as levels of particulate matter, ozone, and other harmful substances, providing insights into air quality improvements or deteriorations over time.
 
-
-
-* **Year**: 
-* **Geographies**: 
-* **Territories**: 
+* **Years**: 1980-2024
+* **Geographic levels**: County and City (the Census calls these "core-based statistical areas")
+* **Territories available**: Puerto Rico and the U.S. Virgin Islands
 
 

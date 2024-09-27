@@ -1,0 +1,18 @@
+---
+title: "Child Care Dessets"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+[Access the Center for American Progress's Child Care Desserts report and interactive map](https://www.americanprogress.org/article/mapping-americas-child-care-deserts/){.external target="_blank"}
+
+The Center for American Progress defines a "child care dessert" as "any census tract with more than 50 children under age 5 that contains either no child care providers or so few options that there are more than three times as many children as licensed child care slots."  Their Child Care Deserts map highlights areas in the United States where access to affordable and quality child care is severely limited. It visualizes the distribution of child care providers relative to the number of children needing care, allowing users to identify regions facing significant shortages. 
+
+* **Year**: 2015
+* **Geographic level**: State, County, and Tract
+* **Territories available**: (This source only includes the 50 states and D.C.)
+
+

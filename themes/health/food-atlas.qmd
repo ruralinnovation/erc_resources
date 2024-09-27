@@ -7,13 +7,12 @@ format:
 engine: knitr
 reference-location: margin
 ---
-
 [Access the USDA's Food Access Research Atlas map](https://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas/){.external target="_blank"}
 
 The USDA's Food Access Research Atlas is a comprehensive tool designed to help understand and analyze food access in the United States. It provides data on various aspects of food accessibility, including the availability of grocery stores, supermarkets, and other food retailers, as well as factors like income and transportation. By mapping these elements, the Atlas helps identify areas with limited access to healthy food options, often referred to as "food deserts." This information supports policymakers, researchers, and community organizations in developing strategies to improve food access and address nutritional disparities.
 
 * **Year**: 2019 (Updated 2023)
-* **Geographies**: Census Tract
-* **Territories**: This source only includes the 50 states and D.C.
+* **Geographic level**: Census Tract
+* **Territories available**: (This source only includes the 50 states and D.C.)
 
 

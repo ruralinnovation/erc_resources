@@ -7,13 +7,12 @@ format:
 engine: knitr
 reference-location: margin
 ---
-
 [Access the USDA's Natural Amenities Scale dataset](https://www.ers.usda.gov/data-products/natural-amenities-scale/#:~:text=The%20natural%20amenities%20scale%20is,environmental%20qualities%20most%20people%20prefer){.external target="_blank"}
 
+The USDA's "Natural Amenities Scale" quantifies the attractiveness of geographic areas based on natural features such as climate, topography, and water bodies. This scale ranks counties across the United States, helping to identify regions with high natural appeal that can influence migration patterns and economic development. 
 
-
-* **Year**: 
-* **Geographies**: 
-* **Territories**: 
+* **Year**: 1990
+* **Geographic level**: County (excluding HI and AK)
+* **Territories available**: (This source only includes the lower 48 and D.C.)
 
 

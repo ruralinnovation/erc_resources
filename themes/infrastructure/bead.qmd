@@ -1,0 +1,18 @@
+---
+title: "Broadband Service Map"
+date: last-modified
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+[Access CORI's Interactive Broadband Service Map and data](https://rural-broadband-map.ruralinnovation.us/){.external target="_blank"}
+
+CORI created the Interactive Broadband Service Map to support efficient initial assessments of eligibility for BEAD funding, but may aid others in understanding the broadband landscape in their regions.  This map contains various block-level layers with useful information, including broadband service speeds, previous federal funding for broadband infrastructure, and internet service providers (IPSs.)
+
+* **Years**: Various data years (Updated 2024)
+* **Geographic level**: Census block
+* **Territories available**: Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, Guam, and American Samoa
+
+

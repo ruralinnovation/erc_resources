@@ -7,13 +7,12 @@ format:
 engine: knitr
 reference-location: margin
 ---
+[Access Heawaters Economics' Outdoor Recreation Economy by State report](https://headwaterseconomics.org/economic-development/trends-performance/outdoor-recreation-economy-by-state/){.external target="_blank"}
 
-[Access Heawaters Economics's Outdoor Recreation Economy by State report](https://headwaterseconomics.org/economic-development/trends-performance/outdoor-recreation-economy-by-state/){.external target="_blank"}
+This Headwaters Economics report examines the economic impact of outdoor recreation across the United States, highlighting its contributions to jobs, wages, and overall state economies. It provides state-by-state data and analysis, showcasing the significance of outdoor activities such as hiking, camping, and fishing in driving economic growth. 
 
-
-
-* **Year**: 
-* **Geographies**: 
-* **Territories**: 
+* **Year**: 2022
+* **Geographic level**: State
+* **Territories available**: (This source only includes the 50 states and D.C.)
 
 
