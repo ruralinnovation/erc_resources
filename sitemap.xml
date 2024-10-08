@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/about.html</loc>
-    <lastmod>2024-09-27T18:25:53.851Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/water.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/natural-amenities.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/advocacy/rural-capacity-index.html</loc>
-    <lastmod>2024-09-27T18:25:53.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/infrastructure/bead.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/county-health-rankings.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/food-atlas.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
+    <loc>https://ruralinnovation.github.io/erc_resources/tool/documentation.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
   </url>
   <url>
     <loc>https://ruralinnovation.github.io/erc_resources/index.html</loc>
-    <lastmod>2024-09-27T18:25:53.908Z</lastmod>
+    <lastmod>2024-10-08T19:19:33.741Z</lastmod>
   </url>
   <url>
     <loc>https://ruralinnovation.github.io/erc_resources/themes/economy/nerde.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/hrsa_map.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/infrastructure/connect-humanity.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/infrastructure/childcare.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/outdoor-rec.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/air.html</loc>
-    <lastmod>2024-09-27T18:25:53.929Z</lastmod>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
   </url>
   <url>
     <loc>https://ruralinnovation.github.io/erc_resources/themes/business/data-axle.html</loc>
-    <lastmod>2024-09-27T18:25:53.908Z</lastmod>
+    <lastmod>2024-10-08T19:19:33.741Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/infrastructure/connect-humanity.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/water.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/outdoor-rec.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/hrsa_map.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/county-health-rankings.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/health/food-atlas.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/natural-amenities.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/environment/air.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/infrastructure/bead.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/infrastructure/childcare.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/themes/advocacy/rural-capacity-index.html</loc>
+    <lastmod>2024-10-08T19:19:33.741Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/about.html</loc>
+    <lastmod>2024-10-08T19:19:33.681Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ruralinnovation.github.io/erc_resources/tool/changelog.html</loc>
+    <lastmod>2024-10-08T19:19:33.761Z</lastmod>
   </url>
 </urlset>
