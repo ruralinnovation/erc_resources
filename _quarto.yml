@@ -29,10 +29,7 @@ website:
         contents:
           - href: themes/intro.qmd
             text: Introduction
-          - section: Community Advocacy
-            contents:
-              - href: themes/advocacy/rural-capacity-index.qmd
-                text: Rural Capacity Index
+          - themes/advocacy/index.qmd
           - section: Health
             contents:
               - href: themes/health/county-health-rankings.qmd
