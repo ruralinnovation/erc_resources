@@ -2,10 +2,10 @@
 $h2-font-size:          1.6rem !default;
 $headings-font-weight:  500 !default;
 
-///*-- scss:rules --*/
-//h1, h2, h3, h4, h5, h6 {
-//  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
-//}
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  //text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
 
 /*-- scss:defaults --*/
 
@@ -64,7 +64,7 @@ header#quarto-header {
         }
       }
     }
-}
+  }
 
   * a:visited {
     color: #FFF !important;
@@ -92,6 +92,11 @@ div.quarto-title-banner {
 div.quarto-title {
   &, & .title, .title {
     color: #fff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 200%;
+    padding-top: 20px;
   }
 }
 
@@ -150,11 +155,6 @@ div#quarto-content {
     .sidebar-menu-container {
       padding-top: 1em;
     }
-    
-    ul > li {
-    margin-left: 8px;
-    }
-    
   }
 
   // Override the about page styling
@@ -208,7 +208,6 @@ div#quarto-content {
     }
 
     p {
-      font-family: "Montserrat", "Bitter", serif;
       margin: 2.5% 7.5% 2.5% 0;
 
       img {

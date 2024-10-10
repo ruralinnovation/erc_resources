@@ -18,7 +18,7 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Intro
+        text: Introduction
       - section: Economic Development Tool
         contents:
           - href: tool/documentation.qmd
@@ -27,6 +27,8 @@ website:
             text: Change log
       - section: Additional resources
         contents:
+          - href: themes/intro.qmd
+            text: Introduction
           - section: Community Advocacy
             contents:
               - href: themes/advocacy/rural-capacity-index.qmd
