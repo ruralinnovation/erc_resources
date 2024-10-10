@@ -1,0 +1,41 @@
+---
+title: "Infrastructure"
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+
+
+## Broadband Climate Risk Mitigation Tool
+
+[Access CORI's Broadband Climate Risk Mitigation Tool and data](https://broadband-risk.ruralinnovation.us/){.external target="_blank"}
+
+CORI's Broadband Climate Risk Mitigation Tool helps users evaluate the level of risk that weather events pose to future broadband infrastructure and identify the type of weather events that are the greatest threats.  The tool does this by analyzing historical building loss due to extreme weather.
+
+* **Years**: Various data years (Updated 2023)
+* **Geographic levels**: Tract and County
+* **Territories available**: Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, Guam, and American Samoa
+
+
+## Broadband Service Map
+
+[Access CORI's Interactive Broadband Service Map and data](https://rural-broadband-map.ruralinnovation.us/){.external target="_blank"}
+
+CORI created the Interactive Broadband Service Map to support efficient initial assessments of eligibility for BEAD funding, but may aid others in understanding the broadband landscape in their regions.  This map contains various block-level layers with useful information, including broadband service speeds, previous federal funding for broadband infrastructure, and internet service providers (IPSs.)
+
+* **Years**: Various data years (Updated 2024)
+* **Geographic level**: Census block
+* **Territories available**: Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, Guam, and American Samoa
+
+
+## Child Care Desserts
+
+[Access the Center for American Progress's Child Care Desserts report and interactive map](https://www.americanprogress.org/article/mapping-americas-child-care-deserts/){.external target="_blank"}
+
+The Center for American Progress defines a "child care dessert" as "any census tract with more than 50 children under age 5 that contains either no child care providers or so few options that there are more than three times as many children as licensed child care slots."  Their Child Care Deserts map highlights areas in the United States where access to affordable and quality child care is severely limited. It visualizes the distribution of child care providers relative to the number of children needing care, allowing users to identify regions facing significant shortages.
+
+* **Year**: 2015
+* **Geographic level**: State, County, and Tract
+* **Territories available**: (This source only includes the 50 states and D.C.)

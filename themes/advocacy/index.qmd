@@ -7,6 +7,7 @@ engine: knitr
 reference-location: margin
 ---
 
+
 ## Rural Capacity Index
 
 [Access Headwaters Economics' Rural Capacity Index map and data](https://headwaterseconomics.org/equity/rural-capacity-map/){.external target="_blank"}

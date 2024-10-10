@@ -30,40 +30,11 @@ website:
           - href: themes/intro.qmd
             text: Introduction
           - themes/advocacy/index.qmd
-          - section: Health
-            contents:
-              - href: themes/health/county-health-rankings.qmd
-                text: County Health Rankings
-              - href: themes/health/food-atlas.qmd
-                text: Food Access
-              - href: themes/health/hrsa_map.qmd
-                text: HSRA Map
-          - section: Environment
-            contents:
-              - href: themes/environment/natural-amenities.qmd
-                text: Natural Amenities
-              - href: themes/environment/outdoor-rec.qmd
-                text: Outdoor Recreation
-              - href: themes/environment/air.qmd
-                text: Air Quality
-              - href: themes/environment/water.qmd
-                text: Water Quality
-          - section: Infrastructure
-            contents:
-              - href: themes/infrastructure/connect-humanity.qmd
-                text: Climate Risk to Broadband
-              - href: themes/infrastructure/bead.qmd
-                text: Broadband Access and Funding
-              - href: themes/infrastructure/childcare.qmd
-                text: Child Care Desserts
-          - section: Local Economy
-            contents:
-              - href: themes/economy/nerde.qmd
-                text: NERDE
-          - section: Business
-            contents:
-              - href: themes/business/data-axle.qmd
-                text: Data Axle
+          - themes/health/index.qmd
+          - themes/environment/index.qmd
+          - themes/infrastructure/index.qmd
+          - themes/economy/index.qmd
+          - themes/business/index.qmd
 
 
 format:

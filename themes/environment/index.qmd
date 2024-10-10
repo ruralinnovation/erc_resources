@@ -1,0 +1,53 @@
+---
+title: "Environment"
+format: 
+  html:
+    code-fold: true
+engine: knitr
+reference-location: margin
+---
+
+
+## Natural Amenities Scale
+
+[Access the USDA's Natural Amenities Scale dataset](https://www.ers.usda.gov/data-products/natural-amenities-scale/#:~:text=The%20natural%20amenities%20scale%20is,environmental%20qualities%20most%20people%20prefer){.external target="_blank"}
+
+The USDA's "Natural Amenities Scale" quantifies the attractiveness of geographic areas based on natural features such as climate, topography, and water bodies. This scale ranks counties across the United States, helping to identify regions with high natural appeal that can influence migration patterns and economic development.
+
+* **Year**: 1990
+* **Geographic level**: County (excluding HI and AK)
+* **Territories available**: (This source only includes the lower 48 and D.C.)
+
+
+## Outdoor Recreation Economy
+
+[Access Headwaters Economics' Outdoor Recreation Economy by State report](https://headwaterseconomics.org/economic-development/trends-performance/outdoor-recreation-economy-by-state/){.external target="_blank"}
+
+This Headwaters Economics report examines the economic impact of outdoor recreation across the United States, highlighting its contributions to jobs, wages, and overall state economies. It provides state-by-state data and analysis, showcasing the significance of outdoor activities such as hiking, camping, and fishing in driving economic growth.
+
+* **Year**: 2022
+* **Geographic level**: State
+* **Territories available**: (This source only includes the 50 states and D.C.)
+
+
+## Air Quality
+
+[Access the EPA's Air Quality Statistics Report datasets](https://www.epa.gov/outdoor-air-quality-data/air-quality-statistics-report){.external target="_blank"}
+
+The EPA's Air Quality Statistics Report offers detailed information on air quality trends and pollutants in the United States, summarizing data collected from monitoring stations nationwide. It highlights key indicators such as levels of particulate matter, ozone, and other harmful substances, providing insights into air quality improvements or deteriorations over time.
+
+* **Years**: 1980-2024
+* **Geographic levels**: County and City (the Census calls these "core-based statistical areas")
+* **Territories available**: Puerto Rico and the U.S. Virgin Islands
+
+
+## Water Quality
+
+[Access the EPA's Water Quality data portal](https://www.epa.gov/waterdata/water-quality-data-download#portal){.external target="_blank"}
+
+The EPA's Water Quality Portal is a comprehensive online resource that provides access to a vast array of water quality data from various federal, state, and tribal agencies. It enables users to explore and analyze information related to water monitoring, assessment, and standards.
+
+* **Years**: Various data years
+* **Geographic level**: County
+* **Territories available**: Puerto Rico, Northern Mariana Islands, U.S. Virgin Islands, Guam, and American Samoa
+
