@@ -1,12 +1,15 @@
 ---
-title: "National Economic Resilience Data Explorer (NERDE)"
-date: last-modified
+title: "Local Economy"
 format: 
   html:
     code-fold: true
 engine: knitr
 reference-location: margin
 ---
+
+
+## National Economic Resilience Data Explorer (NERDE)
+
 Access NERDE's [State Data Explorer](https://nerde.anl.gov/data/explorer/states/01){.external target="_blank"}, [County Data Explorer](https://nerde.anl.gov/data/explorer/counties/01001){.external target="_blank"}, and [Tract Data Explorer](https://nerde.anl.gov/data/explorer/tracts/01001020100){.external target="_blank"}
 
 NERDE's Data Explorers provide detailed economic and demographic data at 3 different geographic levels.  The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.   
