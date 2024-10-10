@@ -1,1 +1,1 @@
-Sitemap: https://ruralinnovation.github.io/erc_resources/sitemap.xml
+Sitemap: https://erc.ruralinnovation.us/sitemap.xml
