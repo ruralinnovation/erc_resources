@@ -1,5 +1,9 @@
 ---
-title: "ERC tool documentation"
+title: "Economic Development Tool documentation"
 ---
 
-ERC tool documentation TBD
+This section contains additional notes that may provide more insight into the Economic Development Tool's analyses.  
+
+### Missing values for Connecticut
+
+In 2022, the state of Connecticut replaced their eight counties with nine county-equivalent “planning regions.”  This change is implemented differently across different federal agencies and data sources.  The American Community Survey and Business Formation Statistics began reporting CT’s county-level data using the planning regions starting in their 2022 data editions, the Building Permits Survey made the change starting in 2020, and the remaining data sources the within the tool haven’t made the pivot to planning regions as of their latest data releases.  Because the boundaries were completely redrawn, we are unable to attribute a given planning region’s data to any of the old county names.  Therefore, charts of old CT counties will report “N/A” (“not available”) beginning in the year that the corresponding data source transitioned to planning regions.  

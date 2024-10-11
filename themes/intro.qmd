@@ -3,7 +3,7 @@ title: "Introduction to Additional Resources"
 ---
 
 
-In order to assist Fellows who require data that is not supported by the tool, we have assembled a vetted catalog of research and data.  This catalog includes resources on the following themes...
+In order to assist Fellows who require data that is not supported by the Economic Development Tool, we have assembled a vetted catalog of research and data.  This catalog includes resources on the following themes...
 
 **Community Advocacy**  
 This section contains a resource to help users asses a community's leadership and ability to access funding for infrastructure projects.

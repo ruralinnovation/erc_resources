@@ -1,9 +1,16 @@
 ---
-title: "Economic Development tools for the ERC Fellows"
+title: "Economic development resources for the ERC Fellows"
 ---
 
-The data team at CORI created the [Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"} to aid the Fellows in their work by providing analysis and data on a wide variety of economic indicators.
+### Economic Development Tool
+In 2024, the Mapping and Data Analytics team at CORI created the [Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"}.  This tool allows users to select one or more counties to view a variety of statistics and charts that are key to understanding the landscape of a local economy.  It also allows users to compare these metrics within their local economy to other relevant geographies.  This tool can aid the Fellows in their work by providing analysis and data on a wide variety of indicators that are key to economic development.
+
+### Additional resources
+Though CORI's Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn't include.  To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work.  Topics include environmental quality, childcare access, healthcare access, and more.  For more details and access to these resources, see the "Additional resources" tab in the left-hand sidebar.  
+
 
 ### Ad hoc data support
 If you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Brittany (brittany.kainen@ruralinnovation.us) on the Rural Innovation data team.  
-You are also welcome to attend our open office hours, which are held on the first and third Thursdays of every month.  
+
+### Open office hours
+For more assistance, you are also welcome to attend the open office hours hosted by the data team.  These are Zoom meetings held on the first and third Thursdays of every month.  [Click here for the Zoom meeting link.](https://us02web.zoom.us/j/81763434931?pwd=1lOajGaBQ13Z3kV2OivsDrBpnUkBFw.1){.external target="_blank"} 
