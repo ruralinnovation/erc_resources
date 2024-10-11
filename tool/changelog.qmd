@@ -2,4 +2,27 @@
 title: "Changelog"
 ---
 
-Changelog Content TBD
+### 2024-10-11 updates for Version 2
+* Enable selection of multiple primary counties
+* Make the state and U.S. comparisons optional
+* Add an optional comparison that allows users to select all counties of a given urbanization level
+* Allow users to download the underlying data for each chart using a “Download data” button
+* Allow users to view the exact figures within each line chart by hovering over the desired line at a given year
+* Expand the “Employment by industry” chart from the top 5 industries to the top 10
+* Add geographic comparisons to the “Share of employment by sector” chart
+* Change the chart type of the “Average compensation per worker” chart from a bar chart with data from 2022 to a line chart with data from 2017-2022
+* Change the chart type of the “Real GDP per worker” chart from a bar chart with data from 2022 to a line chart with data from 2017-2022
+* Add the counts of computer and math workers in each geography to the bar chart labels in the “Tech employment” chart
+* Add an “Employment by occupation” chart to the Workforce section
+* Add a “Venture capital per capita” chart to the Entrepreneurship section
+* Add a “Business applications” chart to the Entrepreneurship section
+* Add a “Cost-burdened renters” chart to the Infrastructure section
+* Add a “Cost-burdened owners” chart to the Infrastructure section
+* Add a “Housing permits” chart to the Infrastructure section
+* Add a “Quality of life” chart to the Infrastructure section
+* Remove the “Share of employment in tradable services” chart, as this information is now in the “Share of employment by sector” chart
+* Remove the “Race and ethnicity (race alone)” chart, which only counts people who identified with just one race and are not Hispanic or Latino
+* Add the number of venture capital-backed businesses from 2019-23 to the “Key statistics” of the Entrepreneurship section
+* Add the number of patents granted from 2014-23 to the “Key statistics” of the Entrepreneurship section
+* Update data for the “Broadband service” chart with the latest release (Dec. 2023) of FCC Broadband Data Collection data
+
