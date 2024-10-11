@@ -2,6 +2,8 @@
 title: "Changelog"
 ---
 
+This page documents changes made to the Economic Development Tool since the initial release in the summer of 2024. 
+
 ### 2024-10-11 updates for Version 2
 * Enable selection of multiple primary counties
 * Make the state and U.S. comparisons optional
