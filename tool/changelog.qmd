@@ -4,6 +4,9 @@ title: "Changelog"
 
 This page documents changes made to the Economic Development Tool since the initial release in the summer of 2024.
 
+### 2024-12-20
+* Updated Business Growth data to include the 2022 Business Dynamics Statistics release.
+
 ### 2024-12-18
 * FCC estimates have been updated to use the June 2024 National Broadband Map release.
 
