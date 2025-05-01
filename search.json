@@ -1,76 +1,5 @@
 [
   {
-    "objectID": "tool/documentation.html",
-    "href": "tool/documentation.html",
-    "title": "Economic Development Tool documentation",
-    "section": "",
-    "text": "This section contains additional notes that may provide more insight into the Economic Development Tool’s analyses.\n\nMissing values for Connecticut\nIn 2022, the state of Connecticut replaced their eight counties with nine county-equivalent “planning regions.” This change is implemented differently across different federal agencies and data sources. The American Community Survey and Business Formation Statistics began reporting CT’s county-level data using the planning regions starting in their 2022 data editions, the Building Permits Survey made the change starting in 2020, and the remaining data sources the within the tool haven’t made the pivot to planning regions as of their latest data releases. Because the boundaries were completely redrawn, we are unable to attribute a given planning region’s data to any of the old county names. Therefore, charts of old CT counties will report “N/A” (“not available”) beginning in the year that the corresponding data source transitioned to planning regions.",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Economic Development Tool",
-      "Documentation"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Economic development resources for the ERC Fellows",
-    "section": "",
-    "text": "Economic Development Tool\nIn 2024, the Mapping and Data Analytics team at CORI created the Economic Development Tool. This tool allows users to select one or more counties to view a variety of statistics and charts that are key to understanding the landscape of a local economy. It also allows users to compare these metrics within their local economy to other relevant geographies. This tool can aid the Fellows in their work by providing analysis and data on a wide variety of indicators that are key to economic development.\n\n\nAdditional resources\nThough CORI’s Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn’t include. To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work. Topics include environmental quality, childcare access, healthcare access, and more. For more details and access to these resources, see the “Additional resources” tab in the left-hand sidebar.\n\n\nAd hoc data support\nIf you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Brittany (brittany.kainen@ruralinnovation.us) on the Rural Innovation data team.\n\n\nOpen office hours\nFor more assistance, you are also welcome to attend the open office hours hosted by the data team. These are Zoom meetings held on the first and third Thursdays of every month. Click here for the Zoom meeting link.",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "themes/economy/index.html",
-    "href": "themes/economy/index.html",
-    "title": "Local Economy",
-    "section": "",
-    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Local Economy"
-    ]
-  },
-  {
-    "objectID": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
-    "href": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
-    "title": "Local Economy",
-    "section": "",
-    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Local Economy"
-    ]
-  },
-  {
-    "objectID": "themes/business/index.html",
-    "href": "themes/business/index.html",
-    "title": "Business",
-    "section": "",
-    "text": "Data Axle provides comprehensive and accurate business data, which helps business-to-business organizations enhance their marketing strategies and target the right audience more effectively. It can also be used by individuals and researchers interested in using a single source to access a wide variety of details about companies in a particular region. This may include details about a company’s industry, the number of people they employ, estimated annual revenue, addresses and contact information, etc. Data Axle’s robust analytics tools enable users to gain valuable insights into businesses’ behaviors and market trends, leading to more informed decision-making. The contact information provided also enables direct outreach.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Business"
-    ]
-  },
-  {
-    "objectID": "themes/business/index.html#accessing-data-axle",
-    "href": "themes/business/index.html#accessing-data-axle",
-    "title": "Business",
-    "section": "",
-    "text": "Data Axle provides comprehensive and accurate business data, which helps business-to-business organizations enhance their marketing strategies and target the right audience more effectively. It can also be used by individuals and researchers interested in using a single source to access a wide variety of details about companies in a particular region. This may include details about a company’s industry, the number of people they employ, estimated annual revenue, addresses and contact information, etc. Data Axle’s robust analytics tools enable users to gain valuable insights into businesses’ behaviors and market trends, leading to more informed decision-making. The contact information provided also enables direct outreach.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Business"
-    ]
-  },
-  {
     "objectID": "themes/environment/index.html",
     "href": "themes/environment/index.html",
     "title": "Environment",
@@ -131,6 +60,30 @@
     ]
   },
   {
+    "objectID": "themes/economy/index.html",
+    "href": "themes/economy/index.html",
+    "title": "Local Economy",
+    "section": "",
+    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Local Economy"
+    ]
+  },
+  {
+    "objectID": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
+    "href": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
+    "title": "Local Economy",
+    "section": "",
+    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Local Economy"
+    ]
+  },
+  {
     "objectID": "themes/health/index.html",
     "href": "themes/health/index.html",
     "title": "Health",
@@ -176,6 +129,72 @@
       "ERC Economic development tool and resources",
       "Additional resources",
       "Health"
+    ]
+  },
+  {
+    "objectID": "themes/advocacy/index.html",
+    "href": "themes/advocacy/index.html",
+    "title": "Community Advocacy",
+    "section": "",
+    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Community Advocacy"
+    ]
+  },
+  {
+    "objectID": "themes/advocacy/index.html#rural-capacity-index",
+    "href": "themes/advocacy/index.html#rural-capacity-index",
+    "title": "Community Advocacy",
+    "section": "",
+    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Community Advocacy"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About Content TBD"
+  },
+  {
+    "objectID": "tool/changelog.html",
+    "href": "tool/changelog.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "This page documents changes made to the Economic Development Tool since the initial release in the summer of 2024.\n\n2024-12-20\n\nUpdated Business Growth data to include the 2022 Business Dynamics Statistics release.\n\n\n\n2024-12-18\n\nFCC estimates have been updated to use the June 2024 National Broadband Map release.\n\n\n\n2024-12-11\n\nAmerican Community Survey (ACS) 5-year estimates have been updated from the 2022 vintage to the 2023 vintage. For metrics showing 5-year changes, the earlier comparison vintage has been updated from 2017 to 2018.\n\n\n\n2024-10-11 updates for Version 2\n\nEnable selection of multiple primary counties\nMake the state and U.S. comparisons optional\nAdd an optional comparison that allows users to select all counties of a given urbanization level\nAllow users to download the underlying data for each chart using a “Download data” button\nAllow users to view the exact figures within each line chart by hovering over the desired line at a given year\nExpand the “Employment by industry” chart from the top 5 industries to the top 10\nAdd geographic comparisons to the “Share of employment by sector” chart\nChange the chart type of the “Average compensation per worker” chart from a bar chart with data from 2022 to a line chart with data from 2017-2022\nChange the chart type of the “Real GDP per worker” chart from a bar chart with data from 2022 to a line chart with data from 2017-2022\nAdd the counts of computer and math workers in each geography to the bar chart labels in the “Tech employment” chart\nAdd an “Employment by occupation” chart to the Workforce section\nAdd a “Venture capital per capita” chart to the Entrepreneurship section\nAdd a “Business applications” chart to the Entrepreneurship section\nAdd a “Cost-burdened renters” chart to the Infrastructure section\nAdd a “Cost-burdened owners” chart to the Infrastructure section\nAdd a “Housing permits” chart to the Infrastructure section\nAdd a “Quality of life” chart to the Infrastructure section\nRemove the “Share of employment in tradable services” chart, as this information is now in the “Share of employment by sector” chart\nRemove the “Race and ethnicity (race alone)” chart, which only counts people who identified with just one race and are not Hispanic or Latino\nAdd the number of venture capital-backed businesses from 2019-23 to the “Key statistics” of the Entrepreneurship section\nAdd the number of patents granted from 2014-23 to the “Key statistics” of the Entrepreneurship section\nUpdate data for the “Broadband service” chart with the latest release (Dec. 2023) of FCC Broadband Data Collection data",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Economic Development Tool",
+      "Change log"
+    ]
+  },
+  {
+    "objectID": "tool/documentation.html",
+    "href": "tool/documentation.html",
+    "title": "Economic Development Tool documentation",
+    "section": "",
+    "text": "This section contains additional notes that may provide more insight into the Economic Development Tool’s analyses.\n\nMissing values for Connecticut\nIn 2022, the state of Connecticut replaced their eight counties with nine county-equivalent “planning regions.” This change is implemented differently across different federal agencies and data sources. The American Community Survey and Business Formation Statistics began reporting CT’s county-level data using the planning regions starting in their 2022 data editions, the Building Permits Survey made the change starting in 2020, and the remaining data sources the within the tool haven’t made the pivot to planning regions as of their latest data releases. Because the boundaries were completely redrawn, we are unable to attribute a given planning region’s data to any of the old county names. Therefore, charts of old CT counties will report “N/A” (“not available”) beginning in the year that the corresponding data source transitioned to planning regions.",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Economic Development Tool",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Economic development resources for the ERC Fellows",
+    "section": "",
+    "text": "Economic Development Tool\nIn 2024, the Mapping and Data Analytics team at CORI created the Economic Development Tool. This tool allows users to select one or more counties to view a variety of statistics and charts that are key to understanding the landscape of a local economy. It also allows users to compare these metrics within their local economy to other relevant geographies. This tool can aid the Fellows in their work by providing analysis and data on a wide variety of indicators that are key to economic development.\n\n\nAdditional resources\nThough CORI’s Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn’t include. To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work. Topics include environmental quality, childcare access, healthcare access, and more. For more details and access to these resources, see the “Additional resources” tab in the left-hand sidebar.\n\n\nAd hoc data support\nIf you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Brittany (brittany.kainen@ruralinnovation.us) on the Rural Innovation data team.\n\n\nOpen office hours\nFor more assistance, you are also welcome to attend the open office hours hosted by the data team. These are Zoom meetings held on the first and third Thursdays of every month. Click here for the Zoom meeting link.",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Introduction"
     ]
   },
   {
@@ -239,46 +258,27 @@
     ]
   },
   {
-    "objectID": "themes/advocacy/index.html",
-    "href": "themes/advocacy/index.html",
-    "title": "Community Advocacy",
+    "objectID": "themes/business/index.html",
+    "href": "themes/business/index.html",
+    "title": "Business",
     "section": "",
-    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
+    "text": "Data Axle provides comprehensive and accurate business data, which helps business-to-business organizations enhance their marketing strategies and target the right audience more effectively. It can also be used by individuals and researchers interested in using a single source to access a wide variety of details about companies in a particular region. This may include details about a company’s industry, the number of people they employ, estimated annual revenue, addresses and contact information, etc. Data Axle’s robust analytics tools enable users to gain valuable insights into businesses’ behaviors and market trends, leading to more informed decision-making. The contact information provided also enables direct outreach.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Additional resources",
-      "Community Advocacy"
+      "Business"
     ]
   },
   {
-    "objectID": "themes/advocacy/index.html#rural-capacity-index",
-    "href": "themes/advocacy/index.html#rural-capacity-index",
-    "title": "Community Advocacy",
+    "objectID": "themes/business/index.html#accessing-data-axle",
+    "href": "themes/business/index.html#accessing-data-axle",
+    "title": "Business",
     "section": "",
-    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
+    "text": "Data Axle provides comprehensive and accurate business data, which helps business-to-business organizations enhance their marketing strategies and target the right audience more effectively. It can also be used by individuals and researchers interested in using a single source to access a wide variety of details about companies in a particular region. This may include details about a company’s industry, the number of people they employ, estimated annual revenue, addresses and contact information, etc. Data Axle’s robust analytics tools enable users to gain valuable insights into businesses’ behaviors and market trends, leading to more informed decision-making. The contact information provided also enables direct outreach.\nThis is a subscription-based resource that you may be able to access through your local library. To see if your library subscribes, search for Reference Solutions (formerly ReferenceUSA), Data Axle’s product for libraries, on your library’s website.\nHere are some general tips that may help you find Data Axle on your local library’s website:\nFirst, go to your library’s website.\n\n\nNavigate to tabs like “Research”, “Digital Resources”, or “Databases.” If the digital resources are sorted by topic, select the topic called something like “Business.”\n\n\nOnce you access your business-related digital resources, search for the title “Reference Solutions” (it may also appear as “ReferenceUSA”.) Then follow your library’s instructions to open Reference Solutions. You will likely need to enter your library card number.\n\n\nIf you can’t find this resource at your local library, check your state-level library system to see if it’s still available to you.",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Additional resources",
-      "Community Advocacy"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About Content TBD"
-  },
-  {
-    "objectID": "tool/changelog.html",
-    "href": "tool/changelog.html",
-    "title": "Changelog",
-    "section": "",
-    "text": "This page documents changes made to the Economic Development Tool since the initial release in the summer of 2024.\n\n2024-12-20\n\nUpdated Business Growth data to include the 2022 Business Dynamics Statistics release.\n\n\n\n2024-12-18\n\nFCC estimates have been updated to use the June 2024 National Broadband Map release.\n\n\n\n2024-12-11\n\nAmerican Community Survey (ACS) 5-year estimates have been updated from the 2022 vintage to the 2023 vintage. For metrics showing 5-year changes, the earlier comparison vintage has been updated from 2017 to 2018.\n\n\n\n2024-10-11 updates for Version 2\n\nEnable selection of multiple primary counties\nMake the state and U.S. comparisons optional\nAdd an optional comparison that allows users to select all counties of a given urbanization level\nAllow users to download the underlying data for each chart using a “Download data” button\nAllow users to view the exact figures within each line chart by hovering over the desired line at a given year\nExpand the “Employment by industry” chart from the top 5 industries to the top 10\nAdd geographic comparisons to the “Share of employment by sector” chart\nChange the chart type of the “Average compensation per worker” chart from a bar chart with data from 2022 to a line chart with data from 2017-2022\nChange the chart type of the “Real GDP per worker” chart from a bar chart with data from 2022 to a line chart with data from 2017-2022\nAdd the counts of computer and math workers in each geography to the bar chart labels in the “Tech employment” chart\nAdd an “Employment by occupation” chart to the Workforce section\nAdd a “Venture capital per capita” chart to the Entrepreneurship section\nAdd a “Business applications” chart to the Entrepreneurship section\nAdd a “Cost-burdened renters” chart to the Infrastructure section\nAdd a “Cost-burdened owners” chart to the Infrastructure section\nAdd a “Housing permits” chart to the Infrastructure section\nAdd a “Quality of life” chart to the Infrastructure section\nRemove the “Share of employment in tradable services” chart, as this information is now in the “Share of employment by sector” chart\nRemove the “Race and ethnicity (race alone)” chart, which only counts people who identified with just one race and are not Hispanic or Latino\nAdd the number of venture capital-backed businesses from 2019-23 to the “Key statistics” of the Entrepreneurship section\nAdd the number of patents granted from 2014-23 to the “Key statistics” of the Entrepreneurship section\nUpdate data for the “Broadband service” chart with the latest release (Dec. 2023) of FCC Broadband Data Collection data",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Economic Development Tool",
-      "Change log"
+      "Business"
     ]
   }
 ]
