@@ -21,10 +21,10 @@ website:
         text: Introduction
       - section: Economic Development Tool
         contents:
+          - href: tool/changelog.qmd
+            text: Changelog
           - href: tool/documentation.qmd
             text: Documentation
-          - href: tool/changelog.qmd
-            text: Change log
       - section: Additional resources
         contents:
           - href: themes/intro.qmd
