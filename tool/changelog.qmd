@@ -2,18 +2,60 @@
 title: "Changelog"
 ---
 
-This page documents changes made to the Economic Development Tool since the initial release in the summer of 2024.
+All notable changes to the ERC Tool will be documented on this page.
 
-### 2024-12-20
+
+## 2024-06-20 - ERC Tool V3
+
+### Added
+
+- **New Quality of Life category** including:
+  - Quality of Life percentile over time metric
+  - Housing-related indicators
+
+- **New Entrepreneurship metric**: Number of startups in each county or region (sourced from PitchBook)
+
+- **Introduction section enhancements**:
+  - Nonmetro status for each county
+  - Population data for each county
+
+- **Update to broadband metrics**: FCC NBM data release update
+
+#### Technical notes
+
+- **Average compensation per worker** and **Employment** metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)
+  - These metrics are now sourced from the Bureau of Labor Statistics' *Quarterly Census of Employment and Wages* (QCEW)
+  - Using **Average annual pay** and **Average annual employment** data
+
+- Refined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report *Rural America's Struggle to Access Private Capital*
+
+- Reorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein
+
+- Revised the names of urbanization level categories for improved clarity and consistency
+
+- **Broadband service data updated** with the December 2024 release of the FCC National Broadband Map
+  - FCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics
+    - Integration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)
+  - Updated data reflects biannual NBM release cycle with improved coverage metrics
+
+
+## 2024-12-20
+
 * Updated Business Growth data to include the 2022 Business Dynamics Statistics release.
 
-### 2024-12-18
+
+## 2024-12-18
+
 * FCC estimates have been updated to use the June 2024 National Broadband Map release.
 
-### 2024-12-11
+
+## 2024-12-11
+
 * American Community Survey (ACS) 5-year estimates have been updated from the 2022 vintage to the 2023 vintage. For metrics showing 5-year changes, the earlier comparison vintage has been updated from 2017 to 2018.
 
-### 2024-10-11 updates for Version 2
+
+## 2024-10-11 - ERC Tool V2
+
 * Enable selection of multiple primary counties
 * Make the state and U.S. comparisons optional
 * Add an optional comparison that allows users to select all counties of a given urbanization level
