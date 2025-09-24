@@ -23,8 +23,8 @@ website:
         contents:
           - href: tool/changelog.qmd
             text: Changelog
-          - href: tool/documentation.qmd
-            text: Documentation
+          - href: tool/notes.qmd
+            text: Notes
       - section: Additional resources
         contents:
           - href: themes/intro.qmd
