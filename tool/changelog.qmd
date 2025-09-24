@@ -4,5 +4,5 @@ title: "Change log"
 
 All notable changes to the ERC Tool will be documented on this page.
 
-{{< include ../../frontend-ts/CHANGELOG.md >}}
+{{< include ..//CHANGELOG.md >}}
 
