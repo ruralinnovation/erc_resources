@@ -1,16 +1,35 @@
 ---
-title: "Economic development resources for the ERC Fellows"
+title: ""
 ---
 
 ### Economic Development Tool
-In 2024, the Mapping and Data Analytics team at CORI created the [Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"}.  This tool allows users to select one or more counties to view a variety of statistics and charts that are key to understanding the landscape of a local economy.  It also allows users to compare these metrics within their local economy to other relevant geographies.  This tool can aid the Fellows in their work by providing analysis and data on a wide variety of indicators that are key to economic development.
+
+In 2024, the Center on Rural Innovation created the [Economic Development Tool](https://erc-tool.ruralinnovation.us/){.external target="_blank"} to address a critical challenge facing rural communities: transforming overwhelming economic data into compelling narratives that drive change. While rural data can be scarce in some areas and overwhelming in others, this tool provides a curated, research-informed approach that goes beyond presenting isolated statistics. It enables users to select counties and examine key economic indicators through an innovation-focused framework, offering context and interpretation alongside visualizations. More importantly, it empowers [Economic Recovery Corps Fellows](https://economicrecoverycorps.org/fellows/){.external target="_blank"} and others focused on economic development in rural communities to build credible, data-backed narratives by combining these analytics with their boots-on-the-ground knowledge. This approach recognizes that while data builds credibility, it's stories that have the power to transform numbers into actionable insights for growing innovative rural economies.
+
+```{=html}
+<style>
+  .prez {
+    border: 4px solid #78c2ad;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 60vw;
+    max-height: 560px;
+  }
+</style>
+```
+
+![](docs/Final_Data_Storytelling_for_Rural_Change_Presentation.pdf){.prez}
 
 ### Additional resources
-Though CORI's Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn't include.  To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work.  Topics include environmental quality, childcare access, healthcare access, and more.  For more details and access to these resources, see the "Additional resources" tab in the left-hand sidebar.  
+
+Though CORI's Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn't include.  To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work.  Topics include environmental quality, childcare access, healthcare access, and more.  For more details and access to these resources, see the [Additional resources](themes/intro.qmd) tab in the left-hand sidebar.  
 
 
 ### Ad hoc data support
-If you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Brittany (brittany.kainen@ruralinnovation.us) on the Rural Innovation data team.  
+
+If you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Lindsey (lindsey.elliott@ruralinnovation.us) on CORI's Mapping & Data Analytics team.  
 
 ### Open office hours
-For more assistance, you are also welcome to attend the open office hours hosted by the data team.  These are Zoom meetings held on the first and third Thursdays of every month.  [Click here for the Zoom meeting link.](https://us02web.zoom.us/j/85767681650?pwd=qw1uH5EW3W0cCbUgLIzVD0ZBjUfIyL.1){.external target="_blank"} 
+
+For more assistance, you are also welcome to attend the open office hours hosted by the data team.  These are Zoom meetings held on the first and third Thursdays of every month.  [Click here for the Zoom meeting link.](hhttps://us02web.zoom.us/j/87122922871?pwd=nLcutNuvzl6muuAXELwUC3nbMpHwHC.1&jst=2){.external target="_blank"}
