@@ -2,7 +2,7 @@
 title: "Rural Economic Development Tool Public Release"
 ---
 
-## Economic Data Build for Rural America
+## Economic Data Built for Rural America
 
 For too long, rural communities have lived in the economic data-wake of cities. When state and national employment numbers climb or GDP reports make news headlines, the story told is overwhelmingly urban. Metropolitan Statistical Areas dominate publicly available datasets, leaving small towns and rural counties navigating their economic futures with fragmented, hard-to-interpret data—if they can access meaningful data at all.
 
