@@ -38,6 +38,8 @@ header#quarto-header {
       .navbar-brand {
 
         &.navbar-brand-logo {
+          margin-right: 100px;
+          width: 100%;
           min-width: 7em;
           min-height: 3.5em;
           background-image: url(assets/images/Full-Logo_CORI_Cream.svg);

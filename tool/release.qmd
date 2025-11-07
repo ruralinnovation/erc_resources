@@ -1,0 +1,67 @@
+---
+title: "Rural Economic Development Tool Public Release"
+---
+
+## Economic Data Build for Rural America
+
+For too long, rural communities have lived in the economic data-wake of cities. When state and national employment numbers climb or GDP reports make news headlines, the story told is overwhelmingly urban. Metropolitan Statistical Areas dominate publicly available datasets, leaving small towns and rural counties navigating their economic futures with fragmented, hard-to-interpret data—if they can access meaningful data at all.
+
+The Center on Rural Innovation (CORI) set out to change that. We are proud to announce the official public release of the **Rural Economic Development Tool**, a first-of-its-kind platform that brings together complex economic data sources into a cohesive, accessible narrative designed specifically for rural contexts.
+
+## From Custom Reports to Real-Time Insights
+
+The journey began with a challenge CORI knew well. Comprised of thought leaders and applied economic developers working to expand tech job opportunities, tech entrepreneurs, and high-tech businesses to rural areas, our team regularly assessed communities' readiness for tech-based ecosystem development. These assessments, called Digital Economy Ecosystem Reports (DEE-R), combined data from multiple federal sources into compelling visual stories presented to community leaders. They were invaluable. They were also time-intensive and custom-built for each community, one at a time.
+
+![][image1]
+
+Excerpt from a 2021 DEE-R report
+
+Working closely with subject matter experts, CORI's data and analytics team transformed this bespoke process into the Digital Economy Diagnostic (DED) tool, an internally-facing program that automated the report's generation. As if by magic, community managers could select a county or region, choose comparison geographies, and receive downloadable graphics, tables, and insights. The tool was an instant success internally, and proved that automated, curated data storytelling could work at scale.
+
+However, the real breakthrough came when the platform was updated using AWS infrastructure. This transition allowed developers to create a scalable, externally-facing tool that delivered insights in real-time. No more waiting for batch-generated reports. No more disjointed analytics. Instead, users had the opportunity to explore rural data dynamically, with a newfound ability to compare their communities to neighboring peers, view state-level economic information, [pore]{.mark} over national averages, or tinker with [ever-changing]{.mark} rural [definitions]{.mark} all the while learning how to interpret what they're seeing and why it matters.
+
+![][image2]
+
+## Built by Rural Data Experts, for Rural Communities
+
+But, here's what really makes this tool different: it's curated by people who understand that rural economies don't behave like scaled-down versions of nonrural ones. Most economic data is over-indexed to nonrural counties and big cities. Analyses that look at the state or nonrural areas often obscure what's happening in the thousands of small towns peppered across America's landscape. The Rural Economic Development Tool addresses this head-on, bringing together data from the American Community Survey, Bureau of Economic Analysis, Census Business Dynamics Statistics, Business Formation Statistics, Building Permits Survey, Federal Communications Commission's broadband data, and Security and Exchange Commission's Form D filings—all interpreted through a rural-first lens.
+
+The **Rural Economic Development Tool** isn't just about access to data, it represents a broader mission for all Americans—regardless of geography—to leverage economic insights for a sustainable and prosperous future. It's time for rural communities to take charge of their own economic growth and stop lagging behind by urban expansion. By combining data with deep storytelling and thematic narratives, the **Rural Economic Development Tool** helps users understand not just *what* the numbers say, but *why* they matter for their community's economic trajectory.
+
+## A Data Lifeline in Uncertain Times
+
+Over the past year, public datasets have come under fire. Resources taken offline. Data sources defunded. Critical economic indicators threatened with discontinuation. For rural communities already underserved by traditional data infrastructure, these losses compound an existing crisis.
+
+![][image3]
+
+The Rural Economic Development Tool stands as both advocate and purveyor of rural data insights in this uncertain landscape. When federal data sources face budget cuts or disappear entirely, rural communities need a trusted place to turn, a platform actively maintained, continuously updated, and designed with their needs at the center. CORI is committed to this mission: constantly exploring new data sources, developing innovative approaches to surface key economic insights, and ensuring that rural America doesn't lose access to the information needed to build resilient, thriving economies.
+
+This tool isn't just about what data exists today. It's about creating a stable foundation for rural data access tomorrow.
+
+## Who's Using It and How
+
+The tool already serves a remarkable range of users. Internally, CORI staff use it to vet incoming community requests, prepare for funder meetings, and generate graphics for conferences and presentations. Externally, it's found its audience through pure [word-of-mouth]{.mark} (nearly 2,000 active users to-date)[: PhD]{.mark} economists analyzing county trends, community economic developers exploring comparable regions, and non-technical stakeholders learning to read economic indicators in context.
+
+*A consultant to an EDD in New Mexico[,]{.mark} called our office to ask a question about our data tool. [She]{.mark} "LOVES, LOVES, LOVES IT"*
+
+Through our partnership with the International Economic Development Council's **Economic Recovery Corps (ERC)** program, rural fellows use the tool to build presentations, write reports, and develop grant applications complete with publication-ready graphics they can download and share. For rural community leaders working with tight budgets and no in-house data team, the tool delivers sophisticated economic analysis that would otherwise be out of reach.
+
+## What's Next: A Public Launch and New Capabilities
+
+This public release marks a pivotal moment. What began as an internal solution for CORI's community assessments has become a national resource, and we're ready to expand its reach even further.
+
+Coming soon: **economic twinning**, a data-driven feature that will suggest comparable counties with similar economic characteristics. While the tool already allows users to benchmark against states, national averages, and rural definitions, economic twinning will help users discover peer communities they might not have considered, opening new possibilities for learning and collaboration. This capability, developed by CORI's data analytics team, will make it even easier for communities to understand their economic trajectory in context.
+
+## An Equitable Data Future
+
+At CORI, we believe that good data shouldn't be a luxury reserved for well-resourced metros. Rural communities deserve economic clarity, and they deserve tools built with their realities in mind. The Rural Economic Development Tool represents years of work by our data, research, and community engagement teams to democratize economic insights, one rural community at a time.
+
+We're excited to see where this next chapter leads and grateful to the ERC program, our community partners, and the economic developers and researchers who've helped shape this tool through their feedback and use. Here's to telling better, more complete economic stories about rural America.
+
+**Explore the Rural Economic Development Tool:** [https://rural-economic-development-dashboard.ruralinnovation.us/](https://rural-economic-development-dashboard.ruralinnovation.us/)
+
+[image1]: <>
+
+[image2]: <>
+
+[image3]: <>
