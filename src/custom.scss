@@ -36,13 +36,16 @@ header#quarto-header {
       background-color: #16343E;
 
       .navbar-brand {
-        min-width: 7em;
-        min-height: 3.5em;
-        background-image: url(assets/images/Full-Logo_CORI_Cream.svg);
-        background-size: calc(100% - 1em);
-        background-position: left top;
-        background-repeat: no-repeat;
-        padding-left: 0.5em;
+
+        &.navbar-brand-logo {
+          min-width: 7em;
+          min-height: 3.5em;
+          background-image: url(assets/images/Full-Logo_CORI_Cream.svg);
+          background-size: calc(100% - 1em);
+          background-position: left top;
+          background-repeat: no-repeat;
+          padding-left: 0.5em;
+        }
 
         .navbar-title {
           display: none;
