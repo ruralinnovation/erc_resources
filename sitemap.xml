@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://erc.ruralinnovation.us/CHANGELOG.html</loc>
-    <lastmod>2025-09-24T17:24:33.550Z</lastmod>
-  </url>
-  <url>
     <loc>https://erc.ruralinnovation.us/about.html</loc>
-    <lastmod>2025-09-24T17:24:33.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/tool/changelog.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/intro.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/business/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/economy/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/health/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/environment/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/infrastructure/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://erc.ruralinnovation.us/themes/advocacy/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.638Z</lastmod>
+    <lastmod>2025-11-07T21:39:18.236Z</lastmod>
   </url>
   <url>
     <loc>https://erc.ruralinnovation.us/tool/notes.html</loc>
-    <lastmod>2025-09-24T17:24:33.658Z</lastmod>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/business/index.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/intro.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/advocacy/index.html</loc>
+    <lastmod>2025-11-07T21:39:18.323Z</lastmod>
   </url>
   <url>
     <loc>https://erc.ruralinnovation.us/index.html</loc>
-    <lastmod>2025-09-24T17:24:33.637Z</lastmod>
+    <lastmod>2025-11-07T21:39:18.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/CHANGELOG.html</loc>
+    <lastmod>2025-11-07T21:39:18.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/health/index.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/environment/index.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/economy/index.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/themes/infrastructure/index.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erc.ruralinnovation.us/tool/changelog.html</loc>
+    <lastmod>2025-11-07T21:39:18.344Z</lastmod>
   </url>
 </urlset>

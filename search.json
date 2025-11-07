@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "ERC Economic development tool and resources",
-    "section": "",
-    "text": "New Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\n\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
-  },
-  {
-    "objectID": "CHANGELOG.html#erc-tool-v3-updates---june-2025",
-    "href": "CHANGELOG.html#erc-tool-v3-updates---june-2025",
-    "title": "ERC Economic development tool and resources",
-    "section": "",
-    "text": "New Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\n\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -21,39 +7,15 @@
     "text": "About Content TBD"
   },
   {
-    "objectID": "tool/changelog.html",
-    "href": "tool/changelog.html",
-    "title": "Change log",
+    "objectID": "tool/notes.html",
+    "href": "tool/notes.html",
+    "title": "Economic Development Tool documentation",
     "section": "",
-    "text": "All notable changes to the ERC Tool will be documented on this page.",
+    "text": "This section contains additional notes that may provide more insight into the Economic Development Tool’s analyses.\n\nMissing values for Connecticut\nIn 2022, the state of Connecticut replaced their eight counties with nine county-equivalent “planning regions.” This change is implemented differently across different federal agencies and data sources. The American Community Survey and Business Formation Statistics began reporting CT’s county-level data using the planning regions starting in their 2022 data editions, the Building Permits Survey made the change starting in 2020, and the remaining data sources the within the tool haven’t made the pivot to planning regions as of their latest data releases. Because the boundaries were completely redrawn, we are unable to attribute a given planning region’s data to any of the old county names. Therefore, charts of old CT counties will report “N/A” (“not available”) beginning in the year that the corresponding data source transitioned to planning regions.",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Economic Development Tool",
-      "Changelog"
-    ]
-  },
-  {
-    "objectID": "tool/changelog.html#erc-tool-v3-updates---june-2025",
-    "href": "tool/changelog.html#erc-tool-v3-updates---june-2025",
-    "title": "Change log",
-    "section": "ERC Tool V3 Updates - June 2025",
-    "text": "ERC Tool V3 Updates - June 2025\n\nAdded\n\nNew Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\nTechnical notes\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Economic Development Tool",
-      "Changelog"
-    ]
-  },
-  {
-    "objectID": "themes/intro.html",
-    "href": "themes/intro.html",
-    "title": "Introduction to Additional Resources",
-    "section": "",
-    "text": "In order to assist Fellows who require data that is not supported by the Economic Development Tool, we have assembled a vetted catalog of research and data. This catalog includes resources on the following themes…\nCommunity Advocacy\nThis section contains a resource to help users asses a community’s leadership and ability to access funding for infrastructure projects.\nHealth\nThis section contains a variety of resources to help users survey the landscape of this topic. There are resources on health outcomes, health care access, and food desserts.\nEnvironment\nThis section contains resources on the natural environment. There is both information about natural amenities from a recreation standpoint and from a health standpoint.\nInfrastructure\nThis section contains two interactive tools created by CORI related to broadband. One of these tools can also help users understand potential environmental hazards in their area. This section also contains a resource on child care access.\nLocal Economy\nThis section contains a resource that provides an overview of the local economy. Though much of this information is also available in CORI’s Economic Development Tool, this resource may supplement the economic data available in CORI’s tool.\nBusiness\nThis section helps users access a vetted list of active businesses (with details about the business) in a given area. This section does not provide direct access to the resource, but it does guide users through finding and accessing the resource.",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Introduction"
+      "Notes"
     ]
   },
   {
@@ -81,28 +43,65 @@
     ]
   },
   {
-    "objectID": "themes/economy/index.html",
-    "href": "themes/economy/index.html",
-    "title": "Local Economy",
+    "objectID": "themes/intro.html",
+    "href": "themes/intro.html",
+    "title": "Introduction to Additional Resources",
     "section": "",
-    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
+    "text": "In order to assist Fellows who require data that is not supported by the Economic Development Tool, we have assembled a vetted catalog of research and data. This catalog includes resources on the following themes…\nCommunity Advocacy\nThis section contains a resource to help users asses a community’s leadership and ability to access funding for infrastructure projects.\nHealth\nThis section contains a variety of resources to help users survey the landscape of this topic. There are resources on health outcomes, health care access, and food desserts.\nEnvironment\nThis section contains resources on the natural environment. There is both information about natural amenities from a recreation standpoint and from a health standpoint.\nInfrastructure\nThis section contains two interactive tools created by CORI related to broadband. One of these tools can also help users understand potential environmental hazards in their area. This section also contains a resource on child care access.\nLocal Economy\nThis section contains a resource that provides an overview of the local economy. Though much of this information is also available in CORI’s Economic Development Tool, this resource may supplement the economic data available in CORI’s tool.\nBusiness\nThis section helps users access a vetted list of active businesses (with details about the business) in a given area. This section does not provide direct access to the resource, but it does guide users through finding and accessing the resource.",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Additional resources",
-      "Local Economy"
+      "Introduction"
     ]
   },
   {
-    "objectID": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
-    "href": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
-    "title": "Local Economy",
+    "objectID": "themes/advocacy/index.html",
+    "href": "themes/advocacy/index.html",
+    "title": "Community Advocacy",
     "section": "",
-    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
+    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Additional resources",
-      "Local Economy"
+      "Community Advocacy"
     ]
+  },
+  {
+    "objectID": "themes/advocacy/index.html#rural-capacity-index",
+    "href": "themes/advocacy/index.html#rural-capacity-index",
+    "title": "Community Advocacy",
+    "section": "",
+    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Community Advocacy"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ERC Economic development tool and resources",
+    "section": "",
+    "text": "Economic Development Tool\nIn 2024, the Center on Rural Innovation created the Economic Development Tool to address a critical challenge facing rural communities: transforming overwhelming economic data into compelling narratives that drive change. While rural data can be scarce in some areas and overwhelming in others, this tool provides a curated, research-informed approach that goes beyond presenting isolated statistics. It enables users to select counties and examine key economic indicators through an innovation-focused framework, offering context and interpretation alongside visualizations. More importantly, it empowers Economic Recovery Corps Fellows and others focused on economic development in rural communities to build credible, data-backed narratives by combining these analytics with their boots-on-the-ground knowledge. This approach recognizes that while data builds credibility, it’s stories that have the power to transform numbers into actionable insights for growing innovative rural economies.\n\n\n\n\nAdditional resources\nThough CORI’s Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn’t include. To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work. Topics include environmental quality, childcare access, healthcare access, and more. For more details and access to these resources, see the Additional resources tab in the left-hand sidebar.\n\n\nAd hoc data support\nIf you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Lindsey (lindsey.elliott@ruralinnovation.us) on CORI’s Mapping & Data Analytics team.\n\n\nOpen office hours\nFor more assistance, you are also welcome to attend the open office hours hosted by the data team. These are Zoom meetings held on the first and third Thursdays of every month. Click here for the Zoom meeting link.",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "ERC Economic development tool and resources",
+    "section": "",
+    "text": "New Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\n\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
+  },
+  {
+    "objectID": "CHANGELOG.html#erc-tool-v3-updates---june-2025",
+    "href": "CHANGELOG.html#erc-tool-v3-updates---june-2025",
+    "title": "ERC Economic development tool and resources",
+    "section": "",
+    "text": "New Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\n\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
   },
   {
     "objectID": "themes/health/index.html",
@@ -213,6 +212,30 @@
     ]
   },
   {
+    "objectID": "themes/economy/index.html",
+    "href": "themes/economy/index.html",
+    "title": "Local Economy",
+    "section": "",
+    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Local Economy"
+    ]
+  },
+  {
+    "objectID": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
+    "href": "themes/economy/index.html#national-economic-resilience-data-explorer-nerde",
+    "title": "Local Economy",
+    "section": "",
+    "text": "Access NERDE’s State Data Explorer, County Data Explorer, and Tract Data Explorer\nNERDE’s Data Explorers provide detailed economic and demographic data at 3 different geographic levels. The platform features interactive visualizations on a wide range of data, including employment rates, income levels, and population dynamics, allowing for a nuanced understanding of local conditions. Users can select multiple areas of interest, in order to compare and analyze trends across different geographic areas.\n\nYears: Various data years\nGeographic level: State, County, and Tract\nTerritories available: Puerto Rico",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Additional resources",
+      "Local Economy"
+    ]
+  },
+  {
     "objectID": "themes/infrastructure/index.html",
     "href": "themes/infrastructure/index.html",
     "title": "Infrastructure",
@@ -261,50 +284,27 @@
     ]
   },
   {
-    "objectID": "themes/advocacy/index.html",
-    "href": "themes/advocacy/index.html",
-    "title": "Community Advocacy",
+    "objectID": "tool/changelog.html",
+    "href": "tool/changelog.html",
+    "title": "Change log",
     "section": "",
-    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Community Advocacy"
-    ]
-  },
-  {
-    "objectID": "themes/advocacy/index.html#rural-capacity-index",
-    "href": "themes/advocacy/index.html#rural-capacity-index",
-    "title": "Community Advocacy",
-    "section": "",
-    "text": "Access Headwaters Economics’ Rural Capacity Index map and data\nThe Rural Capacity Index is a measure designed to evaluate the ability of rural areas to support infrastructure and climate resilience projects. It assesses various factors such as economic resources and local governance. By providing a comprehensive view of rural capacities, it aims to enhance strategic planning and support targeted interventions for sustainable development. Though the index was developed to assess the capacity of rural communities, all U.S. communities receive a score.\n\nYears: Various data years (Updated 2024)\nGeographic levels: County, County Subdivision (these borders are similar to municipal borders in several states), Community (the Census calls these “Places”), and Tribal Areas (the Census calls these “American Indian Area/Alaska Native Area/Hawaiian Home Lands”)\nTerritories available: (This source only includes the 50 states and D.C.)",
-    "crumbs": [
-      "ERC Economic development tool and resources",
-      "Additional resources",
-      "Community Advocacy"
-    ]
-  },
-  {
-    "objectID": "tool/notes.html",
-    "href": "tool/notes.html",
-    "title": "Economic Development Tool documentation",
-    "section": "",
-    "text": "This section contains additional notes that may provide more insight into the Economic Development Tool’s analyses.\n\nMissing values for Connecticut\nIn 2022, the state of Connecticut replaced their eight counties with nine county-equivalent “planning regions.” This change is implemented differently across different federal agencies and data sources. The American Community Survey and Business Formation Statistics began reporting CT’s county-level data using the planning regions starting in their 2022 data editions, the Building Permits Survey made the change starting in 2020, and the remaining data sources the within the tool haven’t made the pivot to planning regions as of their latest data releases. Because the boundaries were completely redrawn, we are unable to attribute a given planning region’s data to any of the old county names. Therefore, charts of old CT counties will report “N/A” (“not available”) beginning in the year that the corresponding data source transitioned to planning regions.",
+    "text": "All notable changes to the ERC Tool will be documented on this page.",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Economic Development Tool",
-      "Notes"
+      "Changelog"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ERC Economic development tool and resources",
-    "section": "",
-    "text": "Economic Development Tool\nIn 2024, the Center on Rural Innovation created the Economic Development Tool to address a critical challenge facing rural communities: transforming overwhelming economic data into compelling narratives that drive change. While rural data can be scarce in some areas and overwhelming in others, this tool provides a curated, research-informed approach that goes beyond presenting isolated statistics. It enables users to select counties and examine key economic indicators through an innovation-focused framework, offering context and interpretation alongside visualizations. More importantly, it empowers Economic Recovery Corps Fellows and others focused on economic development in rural communities to build credible, data-backed narratives by combining these analytics with their boots-on-the-ground knowledge. This approach recognizes that while data builds credibility, it’s stories that have the power to transform numbers into actionable insights for growing innovative rural economies.\n\n\n\n\nAdditional resources\nThough CORI’s Economic Development Tool provides analysis on many important economic indicators, there may still be some topics related to ERC projects that the tool doesn’t include. To address this, the data team at CORI has assembled a vetted list of external research and data that may assist the Fellows in their work. Topics include environmental quality, childcare access, healthcare access, and more. For more details and access to these resources, see the Additional resources tab in the left-hand sidebar.\n\n\nAd hoc data support\nIf you have any questions or would like additional help integrating any of this data into your workflow, please reach out to Drew (drew.rosebush@ruralinnovation.us) or Lindsey (lindsey.elliott@ruralinnovation.us) on CORI’s Mapping & Data Analytics team.\n\n\nOpen office hours\nFor more assistance, you are also welcome to attend the open office hours hosted by the data team. These are Zoom meetings held on the first and third Thursdays of every month. Click here for the Zoom meeting link.",
+    "objectID": "tool/changelog.html#erc-tool-v3-updates---june-2025",
+    "href": "tool/changelog.html#erc-tool-v3-updates---june-2025",
+    "title": "Change log",
+    "section": "ERC Tool V3 Updates - June 2025",
+    "text": "ERC Tool V3 Updates - June 2025\n\nAdded\n\nNew Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\nTechnical notes\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics",
     "crumbs": [
       "ERC Economic development tool and resources",
-      "Introduction"
+      "Economic Development Tool",
+      "Changelog"
     ]
   }
 ]
