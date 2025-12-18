@@ -247,14 +247,21 @@
     "href": "CHANGELOG.html",
     "title": "ERC Economic development tool and resources",
     "section": "",
-    "text": "New Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\n\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
+    "text": "Updated data\n\nSource population stats from Population Estimates Program (formerly sourced from BEA)\nSource employment stats from QCEW (formerly source from BEA)\nConnecticut now includes planning regions and historic counties\nAll other data updated to latest releases (except for ACS/FormD; postponed)"
+  },
+  {
+    "objectID": "CHANGELOG.html#erc-tool-v3-updates---december-2025",
+    "href": "CHANGELOG.html#erc-tool-v3-updates---december-2025",
+    "title": "ERC Economic development tool and resources",
+    "section": "",
+    "text": "Updated data\n\nSource population stats from Population Estimates Program (formerly sourced from BEA)\nSource employment stats from QCEW (formerly source from BEA)\nConnecticut now includes planning regions and historic counties\nAll other data updated to latest releases (except for ACS/FormD; postponed)"
   },
   {
     "objectID": "CHANGELOG.html#erc-tool-v3-updates---june-2025",
     "href": "CHANGELOG.html#erc-tool-v3-updates---june-2025",
     "title": "ERC Economic development tool and resources",
-    "section": "",
-    "text": "New Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\n\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
+    "section": "ERC Tool V3 Updates - June 2025",
+    "text": "ERC Tool V3 Updates - June 2025\n\nAdded\n\nNew Quality of Life category including:\n\nQuality of Life percentile over time metric\nHousing-related indicators\n\nNew Entrepreneurship metric: Number of startups in each county or region (sourced from PitchBook)\nIntroduction section enhancements:\n\nNonmetro status for each county\nPopulation data for each county\n\nUpdate to broadband metrics: FCC NBM data release update\n\n\nTechnical notes\n\nAverage compensation per worker and Employment metrics have been updated due to the discontinuation of regional data tables from the Bureau of Economic Analysis (result of federal budget cuts)\n\nThese metrics are now sourced from the Bureau of Labor Statistics’ Quarterly Census of Employment and Wages (QCEW)\nUsing Average annual pay and Average annual employment data\n\nRefined the language, metrics, and ETL processes associated with the Form D dataset following insights from the report Rural America’s Struggle to Access Private Capital\nReorganized the grouping and order of metrics within the tool based on feedback from Research Director Dr. Amanda Weinstein\nRevised the names of urbanization level categories for improved clarity and consistency\nBroadband service data updated with the December 2024 release of the FCC National Broadband Map\n\nFCC NBM data now includes satellite service coverage, affecting BSL calculations and rural broadband metrics\n\nIntegration of satellite service availability has significant impact on total Broadband Serviceable Locations (BSLs)\n\nUpdated data reflects biannual NBM release cycle with improved coverage metrics"
   },
   {
     "objectID": "index.html",
@@ -345,6 +352,18 @@
     "title": "Change log",
     "section": "",
     "text": "All notable changes to the ERC Tool will be documented on this page.",
+    "crumbs": [
+      "ERC Economic development tool and resources",
+      "Economic Development Tool",
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "tool/changelog.html#erc-tool-v3-updates---december-2025",
+    "href": "tool/changelog.html#erc-tool-v3-updates---december-2025",
+    "title": "Change log",
+    "section": "ERC Tool V3 Updates - December 2025",
+    "text": "ERC Tool V3 Updates - December 2025\n\nAdded\n\nUpdated data\n\nSource population stats from Population Estimates Program (formerly sourced from BEA)\nSource employment stats from QCEW (formerly source from BEA)\nConnecticut now includes planning regions and historic counties\nAll other data updated to latest releases (except for ACS/FormD; postponed)",
     "crumbs": [
       "ERC Economic development tool and resources",
       "Economic Development Tool",
