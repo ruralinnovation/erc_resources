@@ -1,4 +1,15 @@
 
+## ERC Tool V3 Updates - December 2025
+
+### Added
+
+- **Updated data**
+  - Source population stats from Population Estimates Program (formerly sourced from BEA)
+  - Source employment stats from QCEW (formerly source from BEA)
+  - Connecticut now includes planning regions and historic counties
+  - All other data updated to latest releases (except for ACS/FormD; postponed)
+
+
 ## ERC Tool V3 Updates - June 2025
 
 ### Added
