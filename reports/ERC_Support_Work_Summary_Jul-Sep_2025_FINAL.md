@@ -382,7 +382,7 @@ On September 25, 2025 (over a month after July 31 communication), Darnesha Tabor
 ### Internal Documentation
 
 **ERC Project Repository:**
-- Main repository: [`erc_resources`](https://github.com/ruralinnovation/erc_resources/)
+- Main repository: [`erc_resources`](https://github.com/ruralinnovation/erc_resources)
 - Network Mapping analysis branch: `dev/network_mapping`
 - Analysis code directory: `/R/network_mapping/`
 - Resources documentation: `/resources/`
