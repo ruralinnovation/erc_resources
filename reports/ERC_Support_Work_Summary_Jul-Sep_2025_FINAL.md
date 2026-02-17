@@ -360,7 +360,7 @@ Once streamlined data process is in place, updates can be made with minimal effo
 - Potential IEDC support needed: help coordinate deepdive demo with IEDC staff; promotion through Circle platform (ERC's collaboration tool)
 
 **Development Pause:**
-- No additional development time allocated toward tool pending further input on usage and value
+- No additional development time allocated to **new** tool features pending further input on usage and value
 
 ### Follow-up and Next Steps (September 25-26, 2025)
 
@@ -382,7 +382,7 @@ On September 25, 2025 (over a month after July 31 communication), Darnesha Tabor
 ### Internal Documentation
 
 **ERC Project Repository:**
-- Main repository: `/Users/johnhall/Documents/CORI/data/ERC`
+- Main repository: [`erc_resources`](https://github.com/ruralinnovation/erc_resources/)
 - Network Mapping analysis branch: `dev/network_mapping`
 - Analysis code directory: `/R/network_mapping/`
 - Resources documentation: `/resources/`
