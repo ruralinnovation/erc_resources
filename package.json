@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run render",
     "clean": "rm -rf _site/*",
-    "preview": "quarto render --output-dir _site && python -m http.server -d _site 3000",
+    "preview": "quarto render --output-dir _site && python -m http.server -d _site 3001",
     "render": "quarto render"
   }
 }
