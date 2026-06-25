@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CORI Data Release Calendar</title>
+<style>
+  :root {
+    --blue:    #1a4f8a;
+    --teal:    #0d7e7e;
+    --green:   #2a7a3b;
+    --orange:  #c85a00;
+    --purple:  #5a3d8a;
+    --red:     #b02020;
+    --gray:    #555;
+    --light:   #f5f7fa;
+    --border:  #d0d6e0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    color: #222;
+    background: #fff;
+    padding: 32px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 22px; color: var(--blue); margin-bottom: 4px; }
+  .subtitle { color: var(--gray); margin-bottom: 32px; font-size: 13px; }
+
+  h2 { font-size: 15px; color: var(--blue); margin: 32px 0 12px; border-bottom: 2px solid var(--border); padding-bottom: 6px; }
+
+  /* ── Source table ── */
+  table { width: 100%; border-collapse: collapse; margin-bottom: 8px; font-size: 13px; }
+  th { background: var(--blue); color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; }
+  td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--light); }
+  .pkg  { font-family: monospace; font-size: 12px; white-space: nowrap; }
+  .badge {
+    display: inline-block; padding: 2px 7px; border-radius: 10px;
+    font-size: 11px; font-weight: 600; color: #fff; white-space: nowrap;
+  }
+  .monthly   { background: var(--teal); }
+  .quarterly { background: #0d7e7e; }
+  .semiannual{ background: var(--purple); }
+  .annual    { background: var(--blue); }
+  .adhoc     { background: var(--gray); }
+
+  /* ── Calendar grid ── */
+  .cal-wrapper { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+  .month-card {
+    border: 1px solid var(--border); border-radius: 6px; overflow: hidden;
+  }
+  .month-header {
+    background: var(--blue); color: #fff;
+    padding: 6px 12px; font-weight: 700; font-size: 13px;
+  }
+  .month-body { padding: 8px 10px; min-height: 60px; }
+  .event {
+    display: flex; align-items: flex-start; gap: 6px;
+    margin-bottom: 6px; font-size: 12px; line-height: 1.3;
+  }
+  .dot {
+    flex-shrink: 0; width: 9px; height: 9px;
+    border-radius: 50%; margin-top: 3px;
+  }
+  .dot-fcc    { background: var(--purple); }
+  .dot-bfs    { background: var(--teal); }
+  .dot-bds    { background: var(--orange); }
+  .dot-pep    { background: var(--green); }
+  .dot-hu     { background: var(--green); }
+  .dot-axle   { background: var(--red); }
+  .dot-rin    { background: var(--gray); }
+  .dot-qcew   { background: #8b4513; }
+  .dot-bps    { background: #2a7a3b; }
+  .date       { color: var(--gray); font-size: 11px; white-space: nowrap; }
+  .etl-flag {
+    font-size: 10px; background: #fff3cd; border: 1px solid #ffc107;
+    border-radius: 3px; padding: 1px 5px; color: #7a5700; margin-left: 4px;
+    font-weight: 600;
+  }
+  .empty-month { color: #aaa; font-size: 12px; font-style: italic; }
+
+  /* ── Legend ── */
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0 24px; font-size: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+
+  /* ── Notes ── */
+  .notes { background: var(--light); border-left: 4px solid var(--blue); padding: 14px 16px; border-radius: 0 4px 4px 0; font-size: 13px; line-height: 1.7; }
+  .notes li { margin-left: 16px; margin-bottom: 4px; }
+
+  .quarter-label {
+    grid-column: 1 / -1;
+    font-size: 12px; font-weight: 700; color: var(--blue);
+    padding: 6px 0 2px; text-transform: uppercase; letter-spacing: 0.05em;
+    border-top: 1px solid var(--border); margin-top: 4px;
+  }
+
+  /* ── Sortable headers ── */
+  th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  th.sortable::after { content: " ↕"; opacity: 0.5; font-size: 10px; }
+  th.sortable.asc::after  { content: " ↑"; opacity: 1; }
+  th.sortable.desc::after { content: " ↓"; opacity: 1; }
+  th.sortable:hover { background: #14407a; }
+</style>
+
+<script>
+(function() {
+  function getCellText(row, col) {
+    var cell = row.cells[col];
+    return cell ? cell.innerText.trim().toLowerCase() : '';
+  }
+  function sortTable(table, col, asc) {
+    var tbody = table.querySelector('tbody');
+    var rows = Array.from(tbody.querySelectorAll('tr'));
+    rows.sort(function(a, b) {
+      var ta = getCellText(a, col), tb = getCellText(b, col);
+      return asc ? ta.localeCompare(tb) : tb.localeCompare(ta);
+    });
+    rows.forEach(function(r) { tbody.appendChild(r); });
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('th.sortable').forEach(function(th) {
+      th.addEventListener('click', function() {
+        var table = th.closest('table');
+        var col = Array.from(th.parentNode.children).indexOf(th);
+        var asc = !th.classList.contains('asc');
+        th.parentNode.querySelectorAll('th.sortable').forEach(function(h) {
+          h.classList.remove('asc', 'desc');
+        });
+        th.classList.add(asc ? 'asc' : 'desc');
+        sortTable(table, col, asc);
+      });
+    });
+  });
+})();
+</script>
+</head>
+<body>
+
+<h1>CORI Data Release Calendar</h1>
+<p class="subtitle">Updated June 8, 2026 · Covers current + upcoming releases across cori.data.* packages · <strong>ETL</strong> flags indicate recommended ingestion windows</p>
+
+<!-- ═══════════════════════════════════════════════ SOURCE SUMMARY TABLE -->
+<h2>Data Source Summary</h2>
+<table>
+  <thead>
+    <tr>
+      <th class="sortable">Package</th>
+      <th class="sortable">Data Source</th>
+      <th class="sortable">Cadence</th>
+      <th class="sortable">Latest Release</th>
+      <th class="sortable">Coverage</th>
+      <th class="sortable">Next Expected</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="pkg">cori.data.axle</td>
+      <td>Data Axle Business Database</td>
+      <td><span class="badge annual">Annual</span></td>
+      <td>Dec 2025 vintage<br><span class="date">delivered ~Feb 2026 via Esri/S3</span></td>
+      <td>Annual snapshot, end of calendar year</td>
+      <td>Dec 2026 vintage<br><span class="date">est. delivery Q1 2027</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.bds</td>
+      <td>Census Bureau Business Dynamics Statistics</td>
+      <td><span class="badge annual">Annual</span></td>
+      <td>2023 BDS<br><span class="date">Sep 25, 2025</span></td>
+      <td>1978–2023 (firm/establishment dynamics)</td>
+      <td>2024 BDS<br><span class="date">est. Sep 2026 (pattern: Sep each year)</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.bps</td>
+      <td>Census Bureau Building Permits Survey</td>
+      <td><span class="badge annual">Annual</span></td>
+      <td>Vintage 2025 (2000–2025)<br><span class="date">captured Jun 3, 2026</span></td>
+      <td>County, state, national · 2000–present · Annual housing permit counts</td>
+      <td>Vintage 2026 (2000–2026)<br><span class="date">est. May 2027</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.bfs</td>
+      <td>Census Bureau Business Formation Statistics — Monthly</td>
+      <td><span class="badge monthly">Monthly</span></td>
+      <td>Apr 2026 report<br><span class="date">released May 13, 2026</span></td>
+      <td>2005–present (business applications)</td>
+      <td>May 2026 report<br><span class="date">Jun 10, 2026</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.bfs</td>
+      <td>Census Bureau Business Formation Statistics — Annual County</td>
+      <td><span class="badge annual">Annual</span></td>
+      <td>2024 county data<br><span class="date">Jun 11, 2025</span></td>
+      <td>2005–2024 (county-level)</td>
+      <td>2025 county data<br><span class="date">est. Jun 2026 (pattern: ~6 mo after year-end)</span><br><span class="etl-flag">ETL</span> <span class="date">Note: 2022 NAICS switch in Feb 2026 update — schema review needed</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.fcc</td>
+      <td>FCC National Broadband Map (BDC)</td>
+      <td><span class="badge semiannual">Semi-annual</span></td>
+      <td>Version 6 (Dec 2024 data)<br><span class="date">~May/Jun 2025</span><br>Version 7 (Jun 2025 data)<br><span class="date">published — confirmed via FCC API</span><br>Version 8 (Dec 2025 data)<br><span class="date">published — confirmed via FCC API</span> <span class="etl-flag">ETL</span></td>
+      <td>As-of Jun 30 and Dec 31 each year</td>
+      <td>Version 9 (Jun 2026 data)<br><span class="date">filing window opens Jul 1, 2026; est. publication Nov/Dec 2026</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.fcc</td>
+      <td>FCC Form 477 Internet Access Services</td>
+      <td><span class="badge semiannual">Semi-annual</span></td>
+      <td>Jun 2025 data<br><span class="date">released May 8, 2026</span></td>
+      <td>Fixed/mobile broadband + voice subscribership</td>
+      <td>Dec 2025 data<br><span class="date">est. late 2026; filed by Mar 1, 2026</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.hu</td>
+      <td>Census Housing Unit Estimates (PEP)</td>
+      <td><span class="badge annual">Annual</span></td>
+      <td>Vintage 2025 (through Jul 1, 2025)<br><span class="date">May 14, 2026 — states &amp; counties</span></td>
+      <td>Apr 2020–Jul 2025; national, state, county</td>
+      <td>Vintage 2026<br><span class="date">est. May 2027</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.pep</td>
+      <td>Census Population Estimates Program — County</td>
+      <td><span class="badge annual">Annual (multi-phase)</span></td>
+      <td>Vintage 2025 county totals<br><span class="date">Mar 26, 2026</span><br>Demographic detail (age/sex/race)<br><span class="date">scheduled Jun 2026</span> <span class="etl-flag">ETL</span></td>
+      <td>2000–2025 (population, migration, components of change)</td>
+      <td>Vintage 2026 national/state<br><span class="date">est. Jan 2027</span><br>Vintage 2026 county<br><span class="date">est. Mar 2027</span><br>Demographic detail<br><span class="date">est. Jun 2027</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.qcew</td>
+      <td>BLS Quarterly Census of Employment &amp; Wages</td>
+      <td><span class="badge quarterly">Quarterly</span></td>
+      <td>Q4 2025 + Preliminary Annual 2025<br><span class="date">Jun 2, 2026</span> <span class="etl-flag">ETL</span></td>
+      <td>County, state, national employment &amp; wages by NAICS sector; 1975–present</td>
+      <td>Final Annual 2025 + Q1 2026<br><span class="date">Aug 28, 2026</span> <span class="etl-flag">ETL</span><br>Q2 2026<br><span class="date">Dec 2, 2026</span></td>
+    </tr>
+    <tr>
+      <td class="pkg">cori.data.rin</td>
+      <td>Rural Innovation Network (Google Sheets → S3)</td>
+      <td><span class="badge adhoc">Ad hoc</span></td>
+      <td>Updated by Comms as needed</td>
+      <td>RIN community locations</td>
+      <td>No fixed schedule; triggered by Comms updates</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════ LEGEND -->
+<div class="legend">
+  <div class="legend-item"><div class="dot dot-fcc"></div> FCC (NBM / Form 477)</div>
+  <div class="legend-item"><div class="dot dot-bfs"></div> Census BFS</div>
+  <div class="legend-item"><div class="dot dot-bps"></div> Census BPS</div>
+  <div class="legend-item"><div class="dot dot-bds"></div> Census BDS</div>
+  <div class="legend-item"><div class="dot dot-pep"></div> Census PEP / Housing Units</div>
+  <div class="legend-item"><div class="dot dot-axle"></div> Data Axle</div>
+  <div class="legend-item"><div class="dot dot-qcew"></div> BLS QCEW</div>
+  <div class="legend-item"><div class="dot dot-rin"></div> RIN (ad hoc)</div>
+  <div class="legend-item"><span class="etl-flag">ETL</span> Recommended ETL ingestion window</div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ CALENDAR 2026 -->
+<h2>2026 Release Calendar</h2>
+<div class="cal-wrapper">
+
+  <!-- Q2 label -->
+  <div class="quarter-label">Q2 2026</div>
+
+  <!-- JUNE 2026 -->
+  <div class="month-card">
+    <div class="month-header">June 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS May 2026 monthly report<br><span class="date">Jun 10</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS 2025 Annual County data<br><span class="date">est. Jun 2026</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-pep"></div>
+        <div>Census PEP Vintage 2025 — Demographic detail (age/sex/race)<br><span class="date">scheduled Jun 2026</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC NBM Version 8 (Dec 2025 data)<br><span class="date">already published — ingest now</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-qcew"></div>
+        <div>QCEW Q4 2025 + Preliminary Annual 2025<br><span class="date">Jun 2, 2026 — already released</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-bps"></div>
+        <div>BPS Vintage 2025 — captured Jun 3, 2026<br><span class="date">S3 path: cori.data.bps/data_processed/vintage_2025/</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Q3 label -->
+  <div class="quarter-label">Q3 2026</div>
+
+  <!-- JULY 2026 -->
+  <div class="month-card">
+    <div class="month-header">July 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS Jun 2026 monthly report<br><span class="date">Jul 9</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC NBM Version 7 (Jun 2025) + Version 8 (Dec 2025)<br><span class="date">both published — ETL overdue if not yet ingested</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC BDC 9th filing window opens<br><span class="date">Jul 1 (for Jun 30, 2026 data)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUGUST 2026 -->
+  <div class="month-card">
+    <div class="month-header">August 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS Jul 2026 monthly report<br><span class="date">Aug 12</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-qcew"></div>
+        <div>QCEW Q1 2026 + Final Annual 2025<br><span class="date">Aug 28, 2026</span> <span class="etl-flag">ETL</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEPTEMBER 2026 -->
+  <div class="month-card">
+    <div class="month-header">September 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bds"></div>
+        <div>Census BDS 2024 annual data<br><span class="date">est. Sep 2026</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS Aug 2026 monthly report<br><span class="date">Sep 11</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC BDC 9th filing deadline<br><span class="date">Sep 1 (Jun 30, 2026 data)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Q4 label -->
+  <div class="quarter-label">Q4 2026</div>
+
+  <!-- OCTOBER 2026 -->
+  <div class="month-card">
+    <div class="month-header">October 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS Sep 2026 monthly report<br><span class="date">Oct 14</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOVEMBER 2026 -->
+  <div class="month-card">
+    <div class="month-header">November 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS Oct 2026 monthly report<br><span class="date">Nov 12</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC NBM Version 9 (Jun 2026 data)<br><span class="date">est. Nov/Dec 2026</span> <span class="etl-flag">ETL</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DECEMBER 2026 -->
+  <div class="month-card">
+    <div class="month-header">December 2026</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS Nov 2026 monthly report<br><span class="date">Dec 11</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-qcew"></div>
+        <div>QCEW Q2 2026<br><span class="date">Dec 2, 2026</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-axle"></div>
+        <div>Data Axle Dec 2026 vintage snapshot<br><span class="date">end of Dec 2026 — delivery est. Q1 2027</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC BDC 10th filing window opens<br><span class="date">Jan 2, 2027 (for Dec 31, 2026 data)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Q1 2027 label -->
+  <div class="quarter-label">Q1 2027 (Planning Horizon)</div>
+
+  <!-- JANUARY 2027 -->
+  <div class="month-card">
+    <div class="month-header">January 2027</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-pep"></div>
+        <div>Census PEP Vintage 2026 — National/State totals + components<br><span class="date">est. Jan 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-axle"></div>
+        <div>Data Axle Dec 2026 vintage — delivery<br><span class="date">est. Q1 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEBRUARY 2027 -->
+  <div class="month-card">
+    <div class="month-header">February 2027</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC BDC 10th filing deadline<br><span class="date">Mar 1, 2027 (Dec 31, 2026 data)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MARCH 2027 -->
+  <div class="month-card">
+    <div class="month-header">March 2027</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-pep"></div>
+        <div>Census PEP Vintage 2026 — County totals<br><span class="date">est. Mar 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Q2 2027 label -->
+  <div class="quarter-label">Q2 2027 (Planning Horizon)</div>
+
+  <!-- MAY 2027 -->
+  <div class="month-card">
+    <div class="month-header">May 2027</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-pep"></div>
+        <div>Census Housing Unit Estimates Vintage 2026<br><span class="date">est. May 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-bps"></div>
+        <div>BPS Vintage 2026 (2000–2026)<br><span class="date">est. May 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-fcc"></div>
+        <div>FCC NBM Version 10 (Dec 2026 data)<br><span class="date">est. May/Jun 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JUNE 2027 -->
+  <div class="month-card">
+    <div class="month-header">June 2027</div>
+    <div class="month-body">
+      <div class="event">
+        <div class="dot dot-pep"></div>
+        <div>Census PEP Vintage 2026 — Demographic detail<br><span class="date">est. Jun 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+      <div class="event">
+        <div class="dot dot-bfs"></div>
+        <div>BFS 2026 Annual County data<br><span class="date">est. Jun 2027</span> <span class="etl-flag">ETL</span></div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end cal-wrapper -->
+
+<!-- ═══════════════════════════════════════════════ BFS MONTHLY DETAIL -->
+<h2>BFS Monthly Release Schedule — Remainder of 2026</h2>
+<table>
+  <thead>
+    <tr><th>Period Covered</th><th>Release Date</th><th>ETL Window</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>May 2026</td><td>Wed, Jun 10, 2026</td><td>Jun 10–14</td></tr>
+    <tr><td>June 2026</td><td>Thu, Jul 9, 2026</td><td>Jul 9–13</td></tr>
+    <tr><td>July 2026</td><td>Wed, Aug 12, 2026</td><td>Aug 12–16</td></tr>
+    <tr><td>August 2026</td><td>Fri, Sep 11, 2026</td><td>Sep 11–15</td></tr>
+    <tr><td>September 2026</td><td>Wed, Oct 14, 2026</td><td>Oct 14–18</td></tr>
+    <tr><td>October 2026</td><td>Thu, Nov 12, 2026</td><td>Nov 12–16</td></tr>
+    <tr><td>November 2026</td><td>Fri, Dec 11, 2026</td><td>Dec 11–15</td></tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════ NOTES -->
+<h2>Notes &amp; Caveats</h2>
+<div class="notes">
+  <ul>
+    <li><strong>FCC National Broadband Map:</strong> The NBM follows a bi-annual BDC filing cycle — filing window opens Jul 1 (for Jun 30 data) and Jan 2 (for Dec 31 data). As of June 8, 2026, the FCC API confirms four releases are published: Jun 2024, Dec 2024, Jun 2025, and Dec 2025 (Version 8). <strong>Versions 7 and 8 are both available now and should be ingested into <code>cori.data.fcc</code> if not yet done.</strong> The next release (Version 9, Jun 2026 data) enters its filing window Jul 1, 2026 with publication expected Nov/Dec 2026.</li>
+    <li><strong>FCC Form 477:</strong> As of 2025, providers are transitioning from Form 477 deployment filings to BDC-only; subscribership data continues under Form 477. Latest deployment data (Jun 2025) was published May 8, 2026. Dec 2025 data is expected late 2026.</li>
+    <li><strong>Census BDS:</strong> Historically released in late September each year, covering data through the prior calendar year. The 2024 vintage (covering through 2024) is expected ~Sep 2026 based on the Sep 2024 / Sep 2025 pattern.</li>
+    <li><strong>Census BFS — Annual County:</strong> The 2025 county data is due ~Jun 2026, approximately six months after year-end. <strong>Note: BFS switched to 2022 NAICS in its Feb 2026 annual update — the <code>cori.data.bfs</code> ETL pipeline should be reviewed for schema compatibility before ingesting the 2025 county data.</strong></li>
+    <li><strong>Census PEP / Housing Units:</strong> Both are released under the Population Estimates Program on an annual multi-phase schedule. County totals (Mar) precede demographic detail (Jun) by ~3 months. Housing unit estimates follow the same May release cadence.</li>
+    <li><strong>Census BPS:</strong> Annual county-level building permit data released each May by the Census Bureau. Vintage 2025 (2000–2025) was captured June 3, 2026 and is on S3. Next vintage (2026) expected May 2027. Run <code>write_bps_to_s3(years = 2000:2026)</code> after release.</li>
+    <li><strong>Data Axle:</strong> Annual end-of-year snapshots; no public release schedule. Based on Esri's Feb 2026 update using Dec 2025 vintage, expect a ~6–8 week lag between snapshot date and data delivery to CORI's S3 partition. Coordinate directly with Data Axle account contact for exact delivery dates.</li>
+    <li><strong>BLS QCEW:</strong> Released quarterly by BLS. Q4 2025 + Preliminary Annual 2025 shipped Jun 2, 2026 and is available now — ingest via <code>cori.data.qcew</code> if not yet done. Final Annual 2025 data will be bundled with Q1 2026 on Aug 28, 2026. <strong>Corrections (verified Jun 11, 2026):</strong> the package function is <code>latest_qcew_vintage()</code> — not <code>latest_qcew_year()</code>; it accepts no <code>preliminary</code> argument; and as of Jun 2026 it already returns <code>"vintage_2025"</code> (not 2024). Note: the Economic Dev Tool pipeline (<code>load_qcew.R</code>) does not call <code>latest_qcew_vintage()</code> — it sources <code>qcew_utils.R</code> which downloads annual county files directly from BLS. To pull 2025 preliminary data in that pipeline, set <code>qcew.latest_year: [2025]</code> in <code>params.yml</code>.</li>
+    <li><strong>cori.data.rin:</strong> Not subject to a fixed schedule — triggered by Comms updating the RIN Communities Google Sheet. ETL via <code>targets::tar_make()</code> should be run after each Comms notification.</li>
+    <li><strong>Government shutdowns / funding lapses:</strong> Several 2025 releases were delayed due to the fall 2025 federal funding lapse (e.g., Housing Unit Estimates delayed by one month). Build buffer time into ETL planning for any release that coincides with potential lapse windows (Sep 30 and Dec 31 fiscal year boundaries).</li>
+  </ul>
+</div>
+
+<p style="margin-top: 24px; font-size: 11px; color: #999;">
+  Sources:
+  FCC BDC resources (fcc.gov/BroadbandData) ·
+  Census BFS release schedule (census.gov/econ/bfs/release_schedule.html) ·
+  Census BDS press releases (census.gov/programs-surveys/bds) ·
+  Census BPS (census.gov/construction/bps/schedule.html) ·
+  Census PEP (census.gov/programs-surveys/popest) ·
+  Census Housing Units (census.gov/newsroom/press-kits/2026/vintage-2025-city-town-pop-estimates.html) ·
+  BLS QCEW (bls.gov/cew/release-calendar.htm) ·
+  Data Axle / Esri demographic updates (doc.arcgis.com)
+</p>
+
+</body>
+</html>

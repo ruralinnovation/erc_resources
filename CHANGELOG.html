@@ -226,13 +226,17 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#schema-migration" id="toc-schema-migration" class="nav-link" data-scroll-target="#schema-migration">Schema Migration</a></li>
   <li><a href="#technical-notes" id="toc-technical-notes" class="nav-link" data-scroll-target="#technical-notes">Technical Notes</a></li>
   </ul></li>
-  <li><a href="#erc-tool-v3-updates---december-2025" id="toc-erc-tool-v3-updates---december-2025" class="nav-link" data-scroll-target="#erc-tool-v3-updates---december-2025">ERC Tool V3 Updates - December 2025</a>
+  <li><a href="#erc-tool-v3-updates---january-2025" id="toc-erc-tool-v3-updates---january-2025" class="nav-link" data-scroll-target="#erc-tool-v3-updates---january-2025">ERC Tool V3 Updates - January 2025</a>
   <ul class="collapse">
   <li><a href="#added-1" id="toc-added-1" class="nav-link" data-scroll-target="#added-1">Added</a></li>
   </ul></li>
-  <li><a href="#erc-tool-v3-updates---june-2025" id="toc-erc-tool-v3-updates---june-2025" class="nav-link" data-scroll-target="#erc-tool-v3-updates---june-2025">ERC Tool V3 Updates - June 2025</a>
+  <li><a href="#erc-tool-v3-updates---december-2025" id="toc-erc-tool-v3-updates---december-2025" class="nav-link" data-scroll-target="#erc-tool-v3-updates---december-2025">ERC Tool V3 Updates - December 2025</a>
   <ul class="collapse">
   <li><a href="#added-2" id="toc-added-2" class="nav-link" data-scroll-target="#added-2">Added</a></li>
+  </ul></li>
+  <li><a href="#erc-tool-v3-updates---june-2025" id="toc-erc-tool-v3-updates---june-2025" class="nav-link" data-scroll-target="#erc-tool-v3-updates---june-2025">ERC Tool V3 Updates - June 2025</a>
+  <ul class="collapse">
+  <li><a href="#added-3" id="toc-added-3" class="nav-link" data-scroll-target="#added-3">Added</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -248,17 +252,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="added" class="level3">
 <h3 class="anchored" data-anchor-id="added">Added</h3>
 <ul>
-<li><strong>Updated data</strong> All data source vintages reviewed against the CORI Data Release Calendar (June 8, 2026) and updated in <code>params.yml</code>.
+<li><strong>Updated data</strong> All data source vintages reviewed against the <a href="docs/data-release-calendar.html">CORI Data Release Calendar (June 8, 2026)</a>:
 <ul>
-<li><code>acs.latest_year</code>: <code>[2023]</code> → <code>[2024]</code>; paired comparison year shifts from 2018 to 2019 (<code>n_year_change_basis = 5</code>). Previously postponed in the December 2025 release.</li>
-<li><code>gen_bea</code> table years extended to include 2024 (<code>CAINC1</code> population, <code>CAGDP1</code> real GDP; full range now 2010–2024). Note: <code>load_bea.R</code> is non-functional (requires <code>BEA_API_KEY</code> and <code>doctR</code> package); 2024 row copied from <code>proj_erc</code> snapshot.</li>
-<li><code>fcc.nbm_release</code>: <code>nbm_block-J25</code> → <code>nbm_block-D25</code> (FCC NBM Version 8, December 2025)</li>
-<li><code>pep.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; county totals released March 26, 2026; sourced via <code>cori.data.pep</code> S3 package</li>
-<li><code>qcew.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; Q4 2025 + Preliminary Annual 2025 released June 2, 2026; direct BLS download via <code>qcew_utils.R</code></li>
-<li><code>bps.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; vintage 2025 captured June 3, 2026; sourced via <code>cori.data.bps</code> S3 package</li>
-<li><code>formd.base_year</code>: <code>[2020]</code> → <code>[2021]</code>; <code>formd.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; 5-year window now covers 2021–2025</li>
-<li><code>bfs.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; held pending schema review in prior release; BFS 2022 NAICS compatibility with existing pipeline confirmed</li>
-<li><code>bds.latest_year</code>: held at <code>[2023]</code>; 2024 BDS vintage not expected until approximately September 2026</li>
+<li>Broadband coverage and access metrics updated to FCC National Broadband Map Version 8 (December 2025 data)</li>
+<li>Population metrics updated to Census PEP 2025 covering 2010-2025</li>
+<li>Wage and salary employment and compensation QCEW covering 2010-2025</li>
+<li>Business formation metrics updated to BFS 2025 covering 2010-2025</li>
+<li>Building permits metric updated to BFS 2025 covering 2010-2025 Private capital access metrics Form D, 5-year window shifted to 2021-2025</li>
 </ul></li>
 </ul>
 </section>
@@ -268,19 +268,28 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="technical-notes" class="level3">
 <h3 class="anchored" data-anchor-id="technical-notes">Technical Notes</h3>
-<ul>
-<li><code>assemble_data.R</code> Google Sheets dependencies replaced with local CSV reads: <code>data/codebook.csv</code>, <code>data/metrics.csv</code>, <code>data/research_language.csv</code>, <code>data/key_stats.csv</code></li>
-<li>PatentsView S3 path returns 403 Forbidden; <code>patents_tidy</code> copied from <code>proj_erc</code> snapshot pending investigation of the PatentsView data access policy change</li>
-<li>Pitchbook source table <code>venture_capital.pitchbook_company_geocoded_addresses</code> absent from database; <code>pitchbook_tidy</code> copied from <code>proj_erc</code> snapshot</li>
-<li><code>load_bea.R</code> requires <code>BEA_API_KEY</code> environment variable (not present in current environment); <code>bea_tidy</code> copied from <code>proj_erc</code> snapshot</li>
-</ul>
+<p>Updates in <code>params.yml</code>: - <code>acs.latest_year</code>: <code>[2023]</code> → <code>[2024]</code>; paired comparison year shifts from 2018 to 2019 (<code>n_year_change_basis = 5</code>). Previously postponed in the December 2025 release. - <code>gen_bea</code> table years extended to include 2024 (<code>CAINC1</code> population, <code>CAGDP1</code> real GDP; full range now 2010–2024). Note: <code>load_bea.R</code> is non-functional (requires <code>BEA_API_KEY</code> and <code>doctR</code> package); 2024 row copied from <code>proj_erc</code> snapshot. - <code>fcc.nbm_release</code>: <code>nbm_block-J25</code> → <code>nbm_block-D25</code> (FCC NBM Version 8, December 2025) - <code>pep.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; county totals released March 26, 2026; sourced via <code>cori.data.pep</code> S3 package - <code>qcew.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; Q4 2025 + Preliminary Annual 2025 released June 2, 2026; direct BLS download via <code>qcew_utils.R</code> - <code>bps.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; vintage 2025 captured June 3, 2026; sourced via <code>cori.data.bps</code> S3 package - <code>formd.base_year</code>: <code>[2020]</code> → <code>[2021]</code>; <code>formd.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; 5-year window now covers 2021–2025 - <code>bfs.latest_year</code>: <code>[2024]</code> → <code>[2025]</code>; held pending schema review in prior release; BFS 2022 NAICS compatibility with existing pipeline confirmed - <code>bds.latest_year</code>: held at <code>[2023]</code>; 2024 BDS vintage not expected until approximately September 2026 - <code>assemble_data.R</code> Google Sheets dependencies replaced with local CSV reads: <code>data/codebook.csv</code>, <code>data/metrics.csv</code>, <code>data/research_language.csv</code>, <code>data/key_stats.csv</code> - PatentsView S3 path returns 403 Forbidden; <code>patents_tidy</code> copied from <code>proj_erc</code> snapshot pending investigation of the PatentsView data access policy change - Pitchbook source table <code>venture_capital.pitchbook_company_geocoded_addresses</code> absent from database; <code>pitchbook_tidy</code> copied from <code>proj_erc</code> snapshot - <code>load_bea.R</code> requires <code>BEA_API_KEY</code> environment variable (not present in current environment); <code>bea_tidy</code> copied from <code>proj_erc</code> snapshot</p>
 <hr>
+</section>
+</section>
+<section id="erc-tool-v3-updates---january-2025" class="level2">
+<h2 class="anchored" data-anchor-id="erc-tool-v3-updates---january-2025">ERC Tool V3 Updates - January 2025</h2>
+<section id="added-1" class="level3">
+<h3 class="anchored" data-anchor-id="added-1">Added</h3>
+<ul>
+<li><strong>Updated data</strong>:
+<ul>
+<li>ACS 2024; 5-year comparison window shifts from 2018–2023 to 2019–2024</li>
+<li>BEA GDP and income series extended through 2024</li>
+<li>Broadband coverage and access metrics updated to FCC National Broadband Map (June 2025 data)</li>
+</ul></li>
+</ul>
 </section>
 </section>
 <section id="erc-tool-v3-updates---december-2025" class="level2">
 <h2 class="anchored" data-anchor-id="erc-tool-v3-updates---december-2025">ERC Tool V3 Updates - December 2025</h2>
-<section id="added-1" class="level3">
-<h3 class="anchored" data-anchor-id="added-1">Added</h3>
+<section id="added-2" class="level3">
+<h3 class="anchored" data-anchor-id="added-2">Added</h3>
 <ul>
 <li><strong>Updated data</strong>
 <ul>
@@ -294,8 +303,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="erc-tool-v3-updates---june-2025" class="level2">
 <h2 class="anchored" data-anchor-id="erc-tool-v3-updates---june-2025">ERC Tool V3 Updates - June 2025</h2>
-<section id="added-2" class="level3">
-<h3 class="anchored" data-anchor-id="added-2">Added</h3>
+<section id="added-3" class="level3">
+<h3 class="anchored" data-anchor-id="added-3">Added</h3>
 <ul>
 <li><p><strong>New Quality of Life category</strong> including:</p>
 <ul>
